@@ -14,28 +14,45 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @WebServlet(name = "ControllerServlet",
-        urlPatterns = {})
+        urlPatterns = {"/maya", "/Login", "/User", "/Customer"})
 public class ControllerServlet extends HttpServlet {
+
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.service(req, resp);
+
+        String controller = req.getParameter("controller");
+        String actions = req.getParameter("actions");
+
+        try {
+
+            if (controller != null) {
+                if (controller.equals("ControllerServlet") && actions.equals("userLog")) {
+                    req.getRequestDispatcher("/jsp/fnd/home.jsp").forward(req, resp);
+                } else if (controller.equals("ControllerServlet") && actions.equals("userNotLog")) {
+                    req.setAttribute("msg", "Senha Incorreta");
+                    req.getRequestDispatcher("index.jsp").forward(req, resp);
+                }
+            }
+            /// MIRROR JAVA REFLECTION
+            String action = req.getServletPath();
+            String className = action.split("/")[1];
+            String classe = StringUtils.capitalize(className);
+            Class c = Class.forName("controller." + classe + "Controller");
+            String pagWebRedirect = (String) new Mirror().on(c.newInstance()).invoke().method("runController").withArgs(req, resp);
+            req.getRequestDispatcher(pagWebRedirect).forward(req, resp);
+
+        } catch (ClassNotFoundException | IllegalAccessException | InstantiationException ex) {
+            Logger.getLogger(ControllerServlet.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        try {
 
-            // MIRROR JAVA REFLECTION
-            String action = request.getServletPath();
-            String className = action.split("/")[1];
-            String methodName = action.split("/")[2];
-            String classe = StringUtils.capitalize(className);
-            Class c = Class.forName("controller." + classe + "Controller");
-            new Mirror().on(c.newInstance()).invoke().method(methodName).withArgs(request, response);
-
-            //List<CardController> l = new CardController().checarFuturasCompras();
-            //System.out.println(l);
-        } catch (ClassNotFoundException | IllegalAccessException | InstantiationException ex) {
-            Logger.getLogger(ControllerServlet.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }
 
     /**

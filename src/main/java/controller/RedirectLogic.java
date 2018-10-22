@@ -11,16 +11,14 @@ import model.Redirect;
 
 public class RedirectLogic{
 
-    public String redirect(HttpServletRequest req, String controller, String module, String program, String actions){
+    public String redirect(HttpServletRequest req, String controller, String actions){
         
         Redirect redirect = new Redirect();
         redirect.setController(controller);
-        redirect.setModule(module);
-        redirect.setProgram(program);
         redirect.setActions(actions);
         
         req.setAttribute("redirectParams", redirect);
-        return "/WEB-INF/jsp/fnd/redirect.jsp";     
+        return "/jsp/fnd/redirect.jsp";
     }
     
 }

@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface IDao<T> {
 
-    public Long add(T t) throws SQLException;
+    public void add(T t) throws SQLException;
 
     public void edit(T t) throws SQLException;
 

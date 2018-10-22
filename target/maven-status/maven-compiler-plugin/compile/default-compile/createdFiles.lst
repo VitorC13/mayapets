@@ -3,9 +3,12 @@ controller/FndUserController.class
 controller/RedirectLogic.class
 dao/IDao.class
 model/Redirect.class
-model/FndUser.class
 controller/LoginController.class
 util/BCrypt.class
+filter/MyUtils.class
+jndi/ConnectionFactory.class
+model/FndUser.class
+filter/JDBCFilter.class
 controller/ControllerServlet.class
 dao/FndUserDAO.class
-jndi/ConnectionFactory.class
+controller/Controller.class

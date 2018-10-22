@@ -1,16 +1,11 @@
 package controller;
 
-import dao.FndUserDAO;
+import dao.UserDAO;
 import jndi.ConnectionFactory;
-import model.FndUser;
-import util.BCrypt;
+import model.User;
 import util.ObjectField;
 
-import javax.persistence.EntityNotFoundException;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -18,8 +13,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-@WebServlet(name = "LoginController", urlPatterns = {"/LoginController"})
-public class LoginController extends HttpServlet {
+public class LoginController implements Controller {
 
 
     protected void finalize() throws Throwable {
@@ -42,46 +36,51 @@ public class LoginController extends HttpServlet {
     }
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+    public String runController(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String result = "";
 
         Connection connection = (Connection) req.getAttribute("connection");
         HttpSession session = req.getSession(true);
         String action = req.getParameter("action");
-        FndUserDAO dao = new FndUserDAO(connection);
+        UserDAO dao = new UserDAO(connection);
         try {
             switch (action) {
                 case "auth":
-                    authenticLogin(req, resp, dao);
+                    result = authenticLogin(req, resp, dao);
                     break;
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+        return result;
 
     }
 
-    public void authenticLogin(HttpServletRequest req, HttpServletResponse resp, FndUserDAO dao) throws Exception {
+    public String authenticLogin(HttpServletRequest req, HttpServletResponse resp, UserDAO dao) throws Exception {
         try {
-
-            FndUser fndUser = dao.autenthicBCrypt((String) verifyNullEmpty(req, "txtLogin", "Nome do Erro", false));
-            if (fndUser != null) {
-                String hashed = fndUser.getPassword();
-                boolean passwordCorrect = BCrypt.checkpw((String) verifyNullEmpty(req, "txtPassword", "Nome do Erro", false), hashed);
+            HttpSession session = req.getSession(true);
+            String login = (String) verifyNullEmpty(req, "txtLogin", "Nome do Erro", false);
+            User user = dao.autenthicBCrypt(login);
+            if (user != null) {
+                String hashed = user.getPassword();
+                String password = (String) verifyNullEmpty(req, "txtPassword", "Nome do Erro", false);
+               // boolean passwordCorrect = BCrypt.checkpw(password, hashed);
+                boolean passwordCorrect = true;
                 if (passwordCorrect) {
-                    RequestDispatcher dispatcher = req.getRequestDispatcher("principal.jsp");
-                    req.setAttribute("user", fndUser);
-                    dispatcher.forward(req, resp);
+                    session.setAttribute("user", user);
+                    return new RedirectLogic().redirect(
+                            req,
+                            "ControllerServlet",
+                            "userLog"
+                    );
                 } else {
-                    RequestDispatcher rd = req.getRequestDispatcher("/index.jsp");
                     req.setAttribute("msg", "Login ou Senha Incorreto!");
-                    rd.forward(req, resp);
+                    return new RedirectLogic().redirect(
+                            req,
+                            "ControllerServlet",
+                            "userNotLog"
+                    );
                 }
             }
 
@@ -89,6 +88,8 @@ public class LoginController extends HttpServlet {
         } catch (Exception e) {
             throw new Exception(e.getMessage());
         }
+        req.setAttribute("msg", "Algo de errado!");
+        return "/index.jsp";
     }
 
 }
