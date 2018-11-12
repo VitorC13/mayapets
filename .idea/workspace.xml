@@ -7,119 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vitor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CollectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PriceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/StockController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BarcodeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CollectionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PriceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/StockDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Barcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/TypeStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/double.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.mask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/type_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/barcode.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/collection.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/price.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/product/stock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/CustomerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/filter/JDBCFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/filter/JDBCFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/modal/userForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/left_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/modal/customerForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/util/ObjectMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/util/ObjectMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/modal/userForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/left_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/modal/customerForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/CustomerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/modal/userForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/bottom_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/head_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/left_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/system/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/system/modal/customerForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/system/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -171,7 +62,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="35" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.119" value="1" />
@@ -202,7 +93,7 @@
           <entry key="project.open.time.97" value="2" />
           <entry key="project.open.time.98" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -215,7 +106,7 @@
           <entry key="Properties" value="568" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="38" />
-          <entry key="XML" value="76" />
+          <entry key="XML" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -231,24 +122,25 @@
           <entry key="tag" value="23" />
           <entry key="tld" value="22" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="54" />
+          <entry key="xml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Procfile" value="2" />
           <entry key="class" value="3" />
           <entry key="css" value="7" />
           <entry key="customer" value="1" />
           <entry key="fnd_user" value="2" />
-          <entry key="java" value="272" />
+          <entry key="java" value="273" />
           <entry key="js" value="14" />
           <entry key="jsp" value="138" />
-          <entry key="properties" value="14" />
+          <entry key="properties" value="15" />
           <entry key="sql" value="3" />
           <entry key="tag" value="9" />
           <entry key="tld" value="3" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -257,12 +149,13 @@
           <entry key="CLASS" value="3" />
           <entry key="CSS" value="7" />
           <entry key="Database Element" value="3" />
-          <entry key="JAVA" value="272" />
+          <entry key="JAVA" value="273" />
           <entry key="JSP" value="147" />
           <entry key="JavaScript" value="13" />
-          <entry key="Properties" value="14" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="15" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -272,15 +165,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2205">
@@ -289,11 +173,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="143">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-525">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -332,7 +252,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="method#doGet#0;class#ControllerServlet#0" />
                 <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
@@ -369,9 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/HomeContoller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/web/jsp/fnd/home.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Price.java" />
@@ -420,6 +337,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/jsp/fnd/user.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
       </list>
     </option>
   </component>
@@ -469,7 +389,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="-8" />
     <option name="width" value="1366" />
     <option name="height" value="776" />
@@ -495,13 +415,60 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jndi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541874093468" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542039621420" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -514,24 +481,24 @@
     <property name="settings.editor.selected.configurable" value="RemoteServers" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web/jsp/product/ajax" />
+      <recent name="$PROJECT_DIR$/web/jsp/product/modal" />
       <recent name="$PROJECT_DIR$/web/jsp/product" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/web/jsp/fnd/modal" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/tags" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controller" />
       <recent name="dao" />
       <recent name="model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/jsp/product/ajax" />
-      <recent name="$PROJECT_DIR$/web/jsp/product/modal" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/jsp/product" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/tags" />
-      <recent name="$PROJECT_DIR$/web/js" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/jsp/fnd/modal" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -629,7 +596,11 @@
           <option name="host" value="" />
         </settings>
       </deployment>
-      <method v="2" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Maya:Web exploded" />
+        </option>
+      </method>
     </configuration>
     <list>
       <item itemvalue="Heroku Deployment.Unnamed" />
@@ -683,16 +654,18 @@
       <workItem from="1541523155559" duration="10593000" />
       <workItem from="1541863731627" duration="7847000" />
       <workItem from="1542031537762" duration="991000" />
+      <workItem from="1542032838687" duration="4482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193869000" />
+    <option name="totallyTimeSpent" value="198351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-40" width="1366" height="808" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949785" weight="0.20694864" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949785" visible="true" weight="0.20694864" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22960725" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -700,10 +673,10 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.5050215" side_tool="true" weight="0.20543806" />
-      <window_info active="true" anchor="bottom" id="Application Servers" order="0" visible="true" weight="0.32998565" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32988167" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.31994262" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31804734" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4175036" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -766,32 +739,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PriceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="180" column="13" selection-start-line="175" selection-start-column="12" selection-end-line="180" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PriceDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="113" column="107" selection-start-line="112" selection-start-column="20" selection-end-line="113" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/autocompletepi/jquery.autocomplete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2520" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/TypeStock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1103,7 +1050,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="method#doGet#0;class#ControllerServlet#0" />
             <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
@@ -1114,8 +1061,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="143">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
