@@ -1,15 +1,12 @@
 package controller;
 
+import dao.CustomerDAO;
 import dao.UserDAO;
-import jndi.ConnectionFactory;
 import model.User;
 import util.BCrypt;
-import util.ObjectField;
 import util.ObjectMethod;
 
 import java.sql.Connection;
-import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +18,7 @@ public class UserController implements Controller {
 
     private ObjectMethod methodObj = new ObjectMethod();
     private List<User> listUser = new ArrayList<User>();
+    private Long id = null;
 
     @Override
     public String runController(HttpServletRequest req, HttpServletResponse res)
@@ -29,10 +27,10 @@ public class UserController implements Controller {
         HttpSession session = req.getSession(true);
         String action = (String) req.getParameter("action");
         UserDAO dao = new UserDAO(connection);
+        CustomerDAO daoCustomer = new CustomerDAO(connection);
         listUser = dao.getList();
         req.setAttribute("listuser", listUser);
         req.setAttribute("listuserSize", listUser.size());
-        Long id = null;
 
         if (action == null) {
             action = "view";
@@ -41,7 +39,7 @@ public class UserController implements Controller {
             if (divAction.length > 1) {
                 action = divAction[0];
                 id = Long.valueOf(divAction[1]);
-            }else{
+            } else {
                 action = divAction[0];
             }
         }
@@ -49,42 +47,53 @@ public class UserController implements Controller {
         String resultado = "";
         switch (action) {
             case "new":
-                resultado = newUser(session, req, connection, dao);
+                resultado = newUser(session, req, dao, daoCustomer);
                 break;
             case "edit":
-                resultado = editUser(session, req, connection, dao);
+                resultado = editUser(session, req, dao, daoCustomer);
                 break;
             case "view":
                 resultado = "/jsp/fnd/user.jsp";
                 break;
+            case "viewedit":
+                resultado = viewEdit(session, req, dao, id);
+                break;
             case "delete":
-                resultado = deleteUser(session, req, connection, dao, id);
+                resultado = deleteUser(session, req, dao, id);
+                break;
+            case "resetPassword":
+                resultado = resetUserPassword(session, req, dao, id);
+                break;
+            case "checkLogin":
+                resultado = checkLogin(session, req, dao);
                 break;
         }
 
         return resultado;
     }
 
-    public String newUser(HttpSession session, HttpServletRequest req, Connection connection, UserDAO dao) throws Exception {
+    public String newUser(HttpSession session, HttpServletRequest req, UserDAO dao, CustomerDAO daoCustomer) throws Exception {
         try {
             User user = new User();
-            User usuarioLogado = (User) session.getAttribute("user");
-            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
             user.setName((String) methodObj.verifyNullEmpty(req, "txtName", "Nome Incorreto", false));
 
-            user.setPassword(BCrypt.hashpw(req.getParameter("txtpassword"), BCrypt.gensalt(12)));
+            user.setPassword(BCrypt.hashpw(req.getParameter("txtPassword"), BCrypt.gensalt(15)));
 
             user.setLogin((String) methodObj.verifyNullEmpty(req, "txtLogin", "Login Incorreto", false));
 
-            user.setCpf((String) methodObj.verifyNullEmpty(req, "txtCpf", "CPF Incorreto", true));
+            String cpf = req.getParameter("txtCpf");
+            String formatCpf = cpf.replace(".", "");
+            formatCpf = formatCpf.replace("-", "");
+            user.setCpf(formatCpf);
 
             user.setEmail((String) methodObj.verifyNullEmpty(req, "txtEmail", "Email Incorreto", true));
 
-            user.setAddress((String) methodObj.verifyNullEmpty(req, "txtAddres", "Endereco incorreto", true));
+            user.setAddress((String) methodObj.verifyNullEmpty(req, "txtAddress", "Endereco incorreto", true));
 
             try {
-                user.setIdCustomer(Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtCustomer", "Empresa errada", false)));
+                Long idCustomer = Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtCustomer", "Empresa errada", false));
+                user.setCustomer(daoCustomer.search(idCustomer));
             } catch (NumberFormatException e) {
                 throw new NumberFormatException("Nome do Erro");
             }
@@ -103,39 +112,42 @@ public class UserController implements Controller {
         }
     }
 
-    public String editUser(HttpSession session, HttpServletRequest req, Connection connection, UserDAO dao) throws Exception {
+    public String editUser(HttpSession session, HttpServletRequest req, UserDAO dao, CustomerDAO daoCustomer) throws Exception {
         try {
             User user = new User();
-            User usuarioLogado = (User) session.getAttribute("usuarioLogado");
-            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
             try {
-                user.setId(Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtid", "Nome do Erro", false)));
+                user.setId(Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtId", "Nome do Erro", false)));
             } catch (NumberFormatException e) {
                 throw new NumberFormatException("Nome do Erro");
             }
 
-            user.setName((String) methodObj.verifyNullEmpty(req, "txtname", "Nome do Erro", false));
+            user.setName((String) methodObj.verifyNullEmpty(req, "txtName", "Nome Incorreto", false));
 
-            user.setPassword((String) methodObj.verifyNullEmpty(req, "txtpassword", "Nome do Erro", false));
+            user.setPassword(BCrypt.hashpw(req.getParameter("txtPassword"), BCrypt.gensalt(15)));
 
-            user.setLogin((String) methodObj.verifyNullEmpty(req, "txtlogin", "Nome do Erro", false));
+            user.setLogin((String) methodObj.verifyNullEmpty(req, "txtLogin", "Login Incorreto", false));
 
-            user.setCpf((String) methodObj.verifyNullEmpty(req, "txtcpf", "Nome do Erro", true));
+            String cpf = req.getParameter("txtCpf");
+            String formatCpf = cpf.replace(".", "");
+            formatCpf = formatCpf.replace("-", "");
+            user.setCpf(formatCpf);
 
-            user.setEmail((String) methodObj.verifyNullEmpty(req, "txtemail", "Nome do Erro", true));
+            user.setEmail((String) methodObj.verifyNullEmpty(req, "txtEmail", "Email Incorreto", true));
 
-            user.setAddress((String) methodObj.verifyNullEmpty(req, "txtaddress", "Nome do Erro", true));
+            user.setAddress((String) methodObj.verifyNullEmpty(req, "txtAddress", "Endereco incorreto", true));
 
             try {
-                user.setIdCustomer(Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtid_customer", "Nome do Erro", false)));
+                Long idCustomer = Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtCustomer", "Empresa errada", false));
+                user.setCustomer(daoCustomer.search(idCustomer));
             } catch (NumberFormatException e) {
                 throw new NumberFormatException("Nome do Erro");
             }
+
             dao.edit(user);
             return new RedirectLogic().redirect(
                     req,
-                    "FndUserLogic",
+                    "User",
                     "view"
             );
 
@@ -144,11 +156,34 @@ public class UserController implements Controller {
         }
     }
 
-    public String deleteUser(HttpSession session, HttpServletRequest req, Connection connection, UserDAO dao, Long id) throws Exception {
+    public String deleteUser(HttpSession session, HttpServletRequest req, UserDAO dao, Long id) throws Exception {
         dao.delete(id);
         listUser = dao.getList();
         req.setAttribute("listuser", listUser);
         req.setAttribute("listuserSize", listUser.size());
         return "/jsp/fnd/user.jsp";
+    }
+
+    public String resetUserPassword(HttpSession session, HttpServletRequest req, UserDAO dao, Long id) throws Exception {
+        dao.resetPass(id);
+        return "/jsp/fnd/user.jsp";
+    }
+
+    public String viewEdit(HttpSession session, HttpServletRequest req, UserDAO dao, Long id) throws Exception {
+        User userEdit = dao.search(id);
+        boolean edit = true;
+        req.setAttribute("userEdit", userEdit);
+        req.setAttribute("edit", edit);
+        return "/jsp/fnd/user.jsp";
+    }
+
+    public String checkLogin(HttpSession session, HttpServletRequest req, UserDAO dao) throws Exception {
+        boolean exist = false;
+        String login = req.getParameter("loginTry");
+        System.out.println(login);
+        exist = dao.searchLogin(login);
+        System.out.println(exist);
+        req.setAttribute("exist", exist);
+        return "/jsp/fnd/ajax/check_login.jsp";
     }
 }

@@ -84,7 +84,7 @@ public class JDBCFilter implements Filter {
 
                 /*IMPLEMENTAR EXCEPTION*/
                 
-               System.out.println("=== ALLINDROP: JDBCFilter Exception: " + e.toString() + " ===");
+               System.out.println("=== JDBCFilter Exception: " + e.toString() + " ===");
                 
             } finally {
                 ConnectionFactory.closeConnection();

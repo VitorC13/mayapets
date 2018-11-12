@@ -12,6 +12,7 @@
 <c:import url="/jsp/inc/head.jsp"/>
 
 <fmt:message key='maya.table.customer.name' var="column_name"/>
+<fmt:message key='maya.table.id' var="column_id"/>
 <fmt:message key='maya.table.customer.razao' var="column_razao"/>
 <fmt:message key='maya.table.customer.cpfcnpj' var="column_cnpj"/>
 <fmt:message key='maya.table.customer.city' var="column_city"/>
@@ -20,24 +21,22 @@
 <fmt:message key='maya.table.customer.state' var="column_state"/>
 
 <div class="container-fluid">
-    <c:import url="/jsp/inc/left_menu.jsp"/>
 
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+    <main role="main" style="padding-top: 10px">
 
-        <button class="btn btn-primary" data-target="#customerForm" data-toggle="modal" data-backdrop="static"
+        <button class="btn btn-info btn-sm" data-target="#customerForm" data-toggle="modal" data-backdrop="static"
                 data-keyboard="false">
             <i class="fa fa-plus"></i>&nbsp&nbspNovo
         </button>
 
-        <table id="report" class="stripe row-border order-column">
+        <table id="report" class="stripe row-border table-responsive order-column">
             <!--Table head-->
             <thead>
             <tr align="center" valign="middle">
-                <th class="bg-dark text-white">${column_name}</th>
+                <th class="bg-dark text-white">${column_id}</th>
+                <th class="bg-light text-black-50">${column_name}</th>
                 <th class="bg-light text-black-50">${column_razao}</th>
                 <th class="bg-light text-black-50">${column_cnpj}</th>
-                <th class="bg-light text-black-50">${column_country}</th>
-                <th class="bg-light text-black-50">${column_state}</th>
                 <th class="bg-light text-black-50">${column_city}</th>
                 <th class="bg-light text-black-50">${column_address}</th>
                 <th class="bg-light text-black-50">Acoes</th>
@@ -47,24 +46,32 @@
             <c:forEach var="list" items="${listcustomer}" begin="0"
                        end="${listcustomerSize}">
                 <tr>
+                    <td align="right" valign="middle">${list.id}</td>
                     <td align="right" valign="middle">${list.name}</td>
                     <td align="right" valign="middle">${list.razaoSocial}</td>
                     <td align="right" valign="middle">${list.cpfCnpj}</td>
-                    <td align="right" valign="middle">${list.country}</td>
-                    <td align="right" valign="middle">${list.state}</td>
                     <td align="right" valign="middle">${list.city}</td>
                     <td align="right" valign="middle">${list.address}</td>
+
                     <form action="Customer">
                         <td align="center" valign="middle">
-                            <button class="btn btn-dark" disabled ><i class="fas fa-edit"></i></button>
-                            <button class="btn btn-danger" name="action" value="delete_${list.id}"><i class="fas fa-user-times"></i></button>
+
+                            <button id="editBtn_${list.id}"
+                                    name="action" value="viewedit_${list.id}"
+                                    class="btn btn-dark" value="c${list.id}" >
+                                <i class="fas fa-edit"></i>
+                            </button>
+
+                            <button class="btn btn-danger" name="action" value="delete_${list.id}">
+                                <i class="fas fa-user-times"></i>
+                            </button>
+
                         </td>
                     </form>
                 </tr>
             </c:forEach>
             </tbody>
             <tfoot>
-                <th></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -80,6 +87,14 @@
 </div>
 <c:import url="/jsp/system/modal/customerForm.jsp"/>
 <c:import url="/jsp/inc/bottom.jsp"/>
+<script type="text/javascript">
+    var edit = document.querySelector("#edit");
+
+    if (edit.value == "true"){
+        $('#customerForm').modal();
+    }
+
+</script>
 <script type="text/javascript">
     $('#report tfoot th').each(function () {
         var title = $(this).text();
@@ -98,6 +113,10 @@
                 header: true,
                 footer: true
             },
+            columnDefs: [
+                {responsivePriority: 1, targets: 0},
+                {responsivePriority: 2, targets: -1}
+            ],
             ordering: false,
             dom: 'Blfrtip',
             buttons: [

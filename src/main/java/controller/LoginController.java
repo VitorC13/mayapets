@@ -3,6 +3,7 @@ package controller;
 import dao.UserDAO;
 import jndi.ConnectionFactory;
 import model.User;
+import util.BCrypt;
 import util.ObjectField;
 
 import javax.servlet.ServletException;
@@ -60,27 +61,18 @@ public class LoginController implements Controller {
     public String authenticLogin(HttpServletRequest req, HttpServletResponse resp, UserDAO dao) throws Exception {
         try {
             HttpSession session = req.getSession(true);
-            String login = (String) verifyNullEmpty(req, "txtLogin", "Nome do Erro", false);
+            String login = (String) verifyNullEmpty(req, "txtLogin", "Login", false);
             User user = dao.autenthicBCrypt(login);
             if (user != null) {
                 String hashed = user.getPassword();
-                String password = (String) verifyNullEmpty(req, "txtPassword", "Nome do Erro", false);
-               // boolean passwordCorrect = BCrypt.checkpw(password, hashed);
-                boolean passwordCorrect = true;
+                String password = req.getParameter("txtPassword");
+                boolean passwordCorrect = BCrypt.checkpw(password, hashed);
                 if (passwordCorrect) {
                     session.setAttribute("user", user);
-                    return new RedirectLogic().redirect(
-                            req,
-                            "ControllerServlet",
-                            "userLog"
-                    );
+                    return "/jsp/fnd/home.jsp";
                 } else {
                     req.setAttribute("msg", "Login ou Senha Incorreto!");
-                    return new RedirectLogic().redirect(
-                            req,
-                            "ControllerServlet",
-                            "userNotLog"
-                    );
+                    return "index.jsp";
                 }
             }
 

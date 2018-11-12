@@ -28,30 +28,21 @@
             </div>
             <%}%>
             <br>
-            <form action="Login" method="post">
 
-                <!-- Login -->
+            <form action="Login" method="post">
                 <div class="form-group input-group" style="width: 250px">
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-user"></span>
-                </span>
+                    <label for="txtLogin" class="sr-only">Login</label>
                     <input type="text" class="form-control"
                            id="txtLogin" name="txtLogin" placeholder="Login">
                 </div>
-
-
-                <!-- Senha -->
                 <div class="form-group input-group" style="width: 250px">
-                <span class="input-group-addon">
-                   <span class="glyphicon glyphicon-lock"></span>
-                </span>
+                    <label for="txtPassword" class="sr-only">Password</label>
                     <input type="password" class="form-control"
-                           id="txtPassword" name="txtPassword" placeholder="Senha">
+                           id="txtPassword" name="txtPassword" placeholder="Password" required>
                 </div>
-
-                <button class="btn btn-info" width="10" type="submit" name="action" value="auth">Entrar
-                </button>
+                <button class="btn btn-info" width="10" type="submit" name="action" value="auth">Sign in</button>
             </form>
+
         </div>
     </div>
 </div>

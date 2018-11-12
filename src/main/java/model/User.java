@@ -10,7 +10,7 @@ public class User {
     private String cpf;
     private String email;
     private String address;
-    private Long idCustomer;
+    private Customer customer;
     private Timestamp dateCreated;
     private Timestamp dateUpdate;
     private boolean active;
@@ -72,12 +72,12 @@ public class User {
         this.address = address;
     }
 
-    public Long getIdCustomer() {
-        return idCustomer;
+    public Customer getCustomer() {
+        return customer;
     }
 
-    public void setIdCustomer(Long idCustomer) {
-        this.idCustomer = idCustomer;
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
 
     public Timestamp getDateCreated() {

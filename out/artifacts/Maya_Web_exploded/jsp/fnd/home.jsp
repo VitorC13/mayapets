@@ -6,20 +6,20 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
+<fmt:setLocale value="pt_BR"/>
 <c:import url="/jsp/inc/head.jsp"/>
 
 <div class="container-fluid">
-    <c:import url="/jsp/inc/left_menu.jsp"/>
 
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+    <main role="main" style="padding-top: 10px">
 
         sdadasda
 
     </main>
-
+    <c:import url="/jsp/inc/bottom_default.jsp"/>
 </div>
 
-<c:import url="/jsp/inc/bottom.jsp"/>
 
 

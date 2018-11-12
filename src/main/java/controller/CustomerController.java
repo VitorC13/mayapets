@@ -1,6 +1,7 @@
 package controller;
 
 import dao.CustomerDAO;
+import dao.UserDAO;
 import jndi.ConnectionFactory;
 import model.Customer;
 import model.User;
@@ -21,6 +22,7 @@ public class CustomerController implements Controller {
 
     private ObjectMethod methodObj = new ObjectMethod();
     private List<Customer> listcustomer = new ArrayList<Customer>();
+    private Long id = null;
 
     @Override
     public String runController(HttpServletRequest req, HttpServletResponse res)
@@ -32,7 +34,6 @@ public class CustomerController implements Controller {
         listcustomer = dao.getList();
         req.setAttribute("listcustomer", listcustomer);
         req.setAttribute("listcustomerSize", listcustomer.size());
-        Long id = null;
 
         if (action == null) {
             action = "view";
@@ -51,9 +52,12 @@ public class CustomerController implements Controller {
             case "new":
                 resultado = newCustomer(session, req, connection, dao);
                 break;
-            /*case "edit":
-                resultado = editFndUser(session, req, connection, dao);
-                break;*/
+            case "edit":
+                resultado = editCustomer(session, req, connection, dao);
+                break;
+            case "viewedit":
+                resultado = viewEdit(session, req, dao, id);
+                break;
             case "view":
                 resultado = "/jsp/system/customer.jsp";
                 break;
@@ -68,12 +72,14 @@ public class CustomerController implements Controller {
     public String newCustomer(HttpSession session, HttpServletRequest req, Connection connection, CustomerDAO dao) throws Exception {
         try {
             Customer customer = new Customer();
-            User usuarioLogado = (User) session.getAttribute("user");
-            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
             customer.setName((String) methodObj.verifyNullEmpty(req, "txtName", "Nome da Empresa", false));
 
-            customer.setCpfCnpj((String) methodObj.verifyNullEmpty(req, "txtCpf", "CNPJ", true));
+            String cpf = req.getParameter("txtCpf");
+            String formatCpf = cpf.replace(".","");
+            formatCpf = formatCpf.replace("-","");
+            formatCpf = formatCpf.replace("/","");
+            customer.setCpfCnpj(formatCpf);
 
             customer.setRazaoSocial((String) methodObj.verifyNullEmpty(req, "txtRazao", "Razao", true));
 
@@ -88,7 +94,7 @@ public class CustomerController implements Controller {
 
             return new RedirectLogic().redirect(
                     req,
-                    "User",
+                    "Customer",
                     "view"
             );
 
@@ -98,52 +104,59 @@ public class CustomerController implements Controller {
         }
     }
 
-    /*public String editFndUser(HttpSession session, HttpServletRequest req, Connection connection, UserDAO dao) throws Exception {
+    public String editCustomer(HttpSession session, HttpServletRequest req, Connection connection, CustomerDAO dao) throws Exception {
         try {
-            User fnduser = new User();
-            User usuarioLogado = (User) session.getAttribute("usuarioLogado");
-            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+            Customer customer = new Customer();
 
             try {
-                fnduser.setId(Long.parseLong((String) verifyNullEmpty(req, "txtid", "Nome do Erro", false)));
+                customer.setId(Long.parseLong((String) methodObj.verifyNullEmpty(req, "txtId", "Nome do Erro", false)));
             } catch (NumberFormatException e) {
                 throw new NumberFormatException("Nome do Erro");
             }
 
-            fnduser.setName((String) verifyNullEmpty(req, "txtname", "Nome do Erro", false));
+            customer.setName((String) methodObj.verifyNullEmpty(req, "txtName", "Nome da Empresa", false));
 
-            fnduser.setPassword((String) verifyNullEmpty(req, "txtpassword", "Nome do Erro", false));
+            String cpf = req.getParameter("txtCpf");
+            String formatCpf = cpf.replace(".","");
+            formatCpf = formatCpf.replace("-","");
+            formatCpf = formatCpf.replace("/","");
+            customer.setCpfCnpj(formatCpf);
 
-            fnduser.setLogin((String) verifyNullEmpty(req, "txtlogin", "Nome do Erro", false));
+            customer.setRazaoSocial((String) methodObj.verifyNullEmpty(req, "txtRazao", "Razao", true));
 
-            fnduser.setCpf((String) verifyNullEmpty(req, "txtcpf", "Nome do Erro", true));
+            customer.setAddress((String) methodObj.verifyNullEmpty(req, "txtAddress", "Endereço", false));
 
-            fnduser.setEmail((String) verifyNullEmpty(req, "txtemail", "Nome do Erro", true));
+            customer.setCountry((String) methodObj.verifyNullEmpty(req, "txtCountry", "Pai", false));
 
-            fnduser.setAddress((String) verifyNullEmpty(req, "txtaddress", "Nome do Erro", true));
+            customer.setState((String) methodObj.verifyNullEmpty(req, "txtState", "Estado", true));
 
-            try {
-                fnduser.setIdCustomer(Long.parseLong((String) verifyNullEmpty(req, "txtid_customer", "Nome do Erro", false)));
-            } catch (NumberFormatException e) {
-                throw new NumberFormatException("Nome do Erro");
-            }
-            dao.edit(fnduser);
+            customer.setCity((String) methodObj.verifyNullEmpty(req, "txtCity", "Cidade", true));
+
+            dao.edit(customer);
             return new RedirectLogic().redirect(
                     req,
-                    "FndUserLogic",
+                    "Customer",
                     "view"
             );
 
         } catch (Exception e) {
             throw new Exception(e.getMessage());
         }
-    }*/
+    }
 
     public String deleteCustomer(HttpSession session, HttpServletRequest req, Connection connection, CustomerDAO dao, Long id) throws Exception {
         dao.delete(id);
         listcustomer = dao.getList();
         req.setAttribute("listcustomer", listcustomer);
         req.setAttribute("listcustomerSize", listcustomer.size());
+        return "/jsp/system/customer.jsp";
+    }
+
+    public String viewEdit(HttpSession session, HttpServletRequest req, CustomerDAO dao, Long id) throws Exception {
+        Customer customerEdit = dao.search(id);
+        boolean edit = true;
+        req.setAttribute("customerEdit", customerEdit);
+        req.setAttribute("edit", edit);
         return "/jsp/system/customer.jsp";
     }
 }

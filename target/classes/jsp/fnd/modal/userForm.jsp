@@ -10,19 +10,32 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
 <%@ taglib prefix="maya" tagdir="/WEB-INF/tags" %>
 <fmt:setLocale value="pt_BR"/>
-<c:set var="action" value="new"/>
+
+<c:choose>
+    <c:when test="${edit == true}">
+        <c:set var="action" value="edit"/>
+        <c:set var="title" value="Editar"/>
+    </c:when>
+    <c:otherwise>
+        <c:set var="action" value="new"/>
+        <c:set var="title" value="Novo"/>
+    </c:otherwise>
+</c:choose>
+
 <link href="/maya/js/autocompletepi/styles.css" rel="stylesheet"/>
 <div class="modal fade bd-example-modal-md" tabindex="-1" id="userForm" role="dialog">
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Novo Usuario</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <h5 class="modal-title">${title} Usuario</h5>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="reloadModal()"
+                        aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <form action="User">
+                    <maya:hidden id="edit" valuex="${edit}"/>
                     <fmt:message key='modal.user.name' var="name"/>
                     <fmt:message key='modal.user.login' var="login"/>
                     <fmt:message key='modal.user.email' var="email"/>
@@ -31,25 +44,27 @@
                     <fmt:message key='modal.user.password' var="password"/>
                     <fmt:message key='modal.user.customer' var="customer"/>
 
+                    <maya:hidden id="txtId" valuex="${userEdit.id}"/>
                     <maya:character id="txtName" label="${name}" maxlength="255" required="true"
-                                    valuex="" placeholder="${name}"/>
+                                    valuex="${userEdit.name}" placeholder="${name}"/>
 
                     <maya:character id="txtLogin" label="${login}" maxlength="255" required="true"
-                                    valuex="" placeholder="${login}"/>
+                                    valuex="${userEdit.login}" placeholder="${login}"
+                                    onblur="checkLogin(document.getElementById('txtLogin').value);"/>
 
                     <maya:character id="txtCpf" label="${cpf}" maxlength="255" required="true"
-                                    valuex="" placeholder="${cpr}"/>
+                                    valuex="${userEdit.cpf}" placeholder="${cpr}"/>
 
                     <maya:email id="txtEmail" label="${email}" maxlength="255" required="true"
-                                valuex="" placeholder="${email}"/>
+                                valuex="${userEdit.email}" placeholder="${email}"/>
 
-                    <maya:character id="txtAddres" label="${addres}" maxlength="255" required="true"
-                                    valuex="" placeholder="${addres}"/>
+                    <maya:character id="txtAddress" label="${addres}" maxlength="255" required="true"
+                                    valuex="${userEdit.address}" placeholder="${addres}"/>
 
                     <maya:character id="txtCustomer_autocomplete" label="${customer}" maxlength="255" required="false"
-                                    valuex=""/>
+                                    valuex="${userEdit.customer.name}"/>
 
-                    <maya:hidden id="txtCustomer" valuex=""/>
+                    <maya:hidden id="txtCustomer" valuex="${userEdit.customer.id}"/>
 
                     <maya:password id="txtPassword" label="${password}" required="true"
                                    valuex="" placeholder="${password}"/>
@@ -57,17 +72,27 @@
 
             </div>
             <div class="modal-footer">
-                <button type="submit" class="btn btn-primary" name="action" value="new">Save changes</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" name="action" value="${action}">Save changes</button>
+                <button type="button" class="btn btn-danger" onclick="reloadModal()" data-dismiss="modal">Close</button>
             </div>
             </form>
         </div>
     </div>
 </div>
 <c:import url="/jsp/fnd/ajax/customer_list.jsp"/>
+<c:import url="/jsp/fnd/ajax/check_login.jsp"/>
 <script src="/maya/js/jquery.min.js"></script>
+<script src="/maya/js/jquery.mask.min.js"></script>
 <script type="text/javascript" src="/maya/js/autocompletepi/jquery.autocomplete.js"></script>
 <script type="text/javascript">
+    var edit = document.querySelector("#edit");
+
+    function reloadModal() {
+        if (edit.value == "true") {
+            window.location.href = "/maya/User";
+        }
+    }
+
     var listCustomerArray = $.map(listCustomer, function (value, key) {
         return {value: value, data: key};
     });
@@ -78,4 +103,42 @@
             $('#txtCustomer').val(value.data);
         }
     });
+
+
+    $("#txtCpf").keydown(function () {
+        try {
+            $("#txtCpf").unmask();
+        } catch (e) {
+        }
+        var tamanho = $("#txtCpf").val().length;
+        $("#txtCpf").mask("999.999.999-99");
+        var elem = this;
+        setTimeout(function () {
+            // mudo a posição do seletor
+            elem.selectionStart = elem.selectionEnd = 10000;
+        }, 0);
+        var currentValue = $(this).val();
+        $(this).val('');
+        $(this).val(currentValue);
+    });
+
+    function checkLogin(obj1) {
+        var path = '/maya/User?action=checkLogin&loginTry=';
+        console.log(path);
+        $.ajax({
+            type: "GET",
+            cache: false,
+            url: path + obj1,
+            success: function (data) {
+                if (data.trim() == "true") {
+                    txtLogin.value = "";
+                    txtLogin.focus();
+                    alert("Login em uso!!");
+
+                }
+            }
+
+        });
+    }
+
 </script>

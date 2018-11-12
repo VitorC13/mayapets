@@ -8,7 +8,6 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/maya/js/jquery.min.js"></script>
 <script src="/maya/js/jquery-ui.min.js"></script>
 
 <script src="/maya/js/popper.js"></script>
@@ -17,22 +16,28 @@
 
 <script src="/maya/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    var leftMenu = document.querySelector("#leftMenu");
     var url = document.URL;
-    resultado = url.split("/");
+    //var resultado = url.split("/");
 
-    if (resultado[4] == 'User') {
+    if (url.includes('User')) {
         $('a#user').addClass("active");
-    } else if (resultado[4] == 'Customer') {
+    } else if (url.includes('Customer')) {
         $('a#customer').addClass("active");
+    } else if (url.includes('Product')) {
+        $('a#product').addClass("active");
+    }else if (url.includes('Collection')) {
+        $('a#collection').addClass("active");
+    }else if (url.includes('Price')) {
+        $('a#price').addClass("active");
+    }else if (url.includes('Stock')) {
+        $('a#stock').addClass("active");
+    }else if (url.includes('Barcode')) {
+        $('a#barcode').addClass("active");
     }
 
-    leftMenu.addEventListener("click", function () {
-        if (resultado[4] == 'User') {
-            $('a#user').addClass("active");
-        } else if (resultado[4] == 'Customer') {
-            $('a#customer').addClass("active");
-        }
+    document.querySelector("#logout").addEventListener("click", function (){
+        sessionStorage.removeItem('user');
+        sessionStorage.clear();
     });
 
 

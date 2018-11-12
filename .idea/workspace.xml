@@ -7,365 +7,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tag/CustomerTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/character.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/email.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/hidden.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/password.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/mayadev.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/autocompletepi/jquery.autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/autocompletepi/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/css/autoFill.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/autoFill.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/dataTables.autoFill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/AutoFill-2.2.2/js/dataTables.autoFill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/buttons.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/css/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/buttons.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/dataTables.buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Buttons-1.5.1/swf/flashExport.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/css/colReorder.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/js/dataTables.colReorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/ColReorder-1.4.1/js/dataTables.colReorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/DataTables-1.10.16/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/JSZip-2.5.0/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/JSZip-2.5.0/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/css/keyTable.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/js/dataTables.keyTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/KeyTable-2.3.2/js/dataTables.keyTable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/css/responsive.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Responsive-2.2.1/js/responsive.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/css/scroller.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/js/dataTables.scroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Scroller-1.4.4/js/dataTables.scroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/css/select.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/js/dataTables.select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/Select-1.2.5/js/dataTables.select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/pdfmake-0.1.32/pdfmake.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/pdfmake-0.1.32/pdfmake.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/datatables/pdfmake-0.1.32/vfs_fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/redirect.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/inc/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/system/customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Maya_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Maya_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vitor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CollectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PriceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BarcodeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CollectionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PriceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/StockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Barcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/TypeStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/double.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/ajax/type_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/barcode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/collection.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/price.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/product/stock.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Maya.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/META-INF/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/FndUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/RedirectLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/RedirectLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/FndUserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/IDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/model/FndUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/filter/JDBCFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/filter/JDBCFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/modal/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/fnd/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/bottom_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/head_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/inc/left_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/jsp/system/modal/customerForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/util/ObjectMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/WEB-INF/classes/util/ObjectMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/modal/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/fnd/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/bottom_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/head_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/controller/ControllerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/controller/FndUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/controller/RedirectLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/dao/FndUserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/dao/IDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/jndi/ConnectionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/model/FndUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/model/Redirect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/lib/mirror-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/web.xml/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/inc/left_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Maya_Web_exploded/jsp/system/modal/customerForm.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FndUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/RedirectLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/RedirectLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FndUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/IDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/FndUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Maya-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Maya-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/FndUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/RedirectLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/RedirectLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/FndUserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/IDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/FndUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/modal/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/bottom_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/head_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/inc/left_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/system/customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/system/modal/customerForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/text.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/system/customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -416,37 +170,49 @@
     <session id="-661764701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.119" value="1" />
-          <entry key="project.open.time.129" value="1" />
+          <entry key="project.open.time.124" value="1" />
+          <entry key="project.open.time.129" value="2" />
+          <entry key="project.open.time.138" value="1" />
+          <entry key="project.open.time.140" value="2" />
+          <entry key="project.open.time.142" value="1" />
+          <entry key="project.open.time.151" value="1" />
+          <entry key="project.open.time.152" value="1" />
+          <entry key="project.open.time.179" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.196" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.93" value="2" />
+          <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.96" value="1" />
+          <entry key="project.open.time.97" value="2" />
           <entry key="project.open.time.98" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2772" />
-          <entry key="JSP" value="2639" />
+          <entry key="CSS" value="4" />
+          <entry key="JAVA" value="6804" />
+          <entry key="JSP" value="7069" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="343" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="568" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="38" />
           <entry key="XML" value="76" />
@@ -455,13 +221,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="38" />
-          <entry key="dummy" value="1" />
-          <entry key="java" value="2772" />
+          <entry key="css" value="4" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="6804" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="2631" />
-          <entry key="properties" value="343" />
+          <entry key="jsp" value="7046" />
+          <entry key="properties" value="568" />
           <entry key="sql" value="8" />
-          <entry key="tag" value="8" />
+          <entry key="tag" value="23" />
           <entry key="tld" value="22" />
           <entry key="txt" value="4" />
           <entry key="xml" value="54" />
@@ -470,32 +237,32 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="css" value="6" />
+          <entry key="class" value="3" />
+          <entry key="css" value="7" />
           <entry key="customer" value="1" />
           <entry key="fnd_user" value="2" />
-          <entry key="java" value="141" />
-          <entry key="js" value="11" />
-          <entry key="jsp" value="36" />
-          <entry key="properties" value="8" />
+          <entry key="java" value="272" />
+          <entry key="js" value="14" />
+          <entry key="jsp" value="138" />
+          <entry key="properties" value="14" />
           <entry key="sql" value="3" />
-          <entry key="tag" value="6" />
-          <entry key="tld" value="2" />
+          <entry key="tag" value="9" />
+          <entry key="tld" value="3" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="CSS" value="6" />
+          <entry key="CLASS" value="3" />
+          <entry key="CSS" value="7" />
           <entry key="Database Element" value="3" />
-          <entry key="JAVA" value="141" />
-          <entry key="JSP" value="42" />
-          <entry key="JavaScript" value="10" />
-          <entry key="Properties" value="8" />
+          <entry key="JAVA" value="272" />
+          <entry key="JSP" value="147" />
+          <entry key="JavaScript" value="13" />
+          <entry key="Properties" value="14" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="19" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -505,37 +272,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/system/customer.jsp">
+        <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="675">
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#602#608#0" expanded="true" />
-                <element signature="method#editUser#0;class#UserController#0" />
-              </folding>
+            <state relative-caret-position="2205">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ObjectMethod.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#finalize#0;class#ObjectMethod#0" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -543,49 +301,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="2745">
+              <caret line="194" selection-start-line="194" selection-end-line="194" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/ObjectMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="39" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
-                <element signature="method#edit#0;class#UserDAO#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#533#543#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="135">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="method#doGet#0;class#ControllerServlet#0" />
                 <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
                 <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -598,9 +349,10 @@
       <list>
         <option value="Interface" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -617,57 +369,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/BCrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/ObjectField.java" />
-        <option value="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" />
-        <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/filter/MyUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/RedirectLogic.java" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/redirect.jsp" />
-        <option value="$PROJECT_DIR$/web/css/dashboard.css" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/home.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/js/popper.js" />
-        <option value="$PROJECT_DIR$/src/main/java/i18n/text.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/new_edit_user.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/tag/character.tag" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/email.tag" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tlds/mayadev.tld" />
-        <option value="$PROJECT_DIR$/src/main/java/model/FndCustomer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/FndCustomerDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tag/CustomerTag.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/hidden.tag" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/IDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/FndUserDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/password.tag" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/FndUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/FndCustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/HomeContoller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/web/jsp/fnd/home.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Price.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Collection.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/PriceController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/tags/double.tag" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TypeStock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/PriceDAO.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/customer_list.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/type_list.jsp" />
+        <option value="$PROJECT_DIR$/web/js/autocompletepi/styles.css" />
+        <option value="$PROJECT_DIR$/web/jsp/system/customer.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/product.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/collection.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/price.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/util/BCrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Barcode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcode.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/text.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Customer.java" />
-        <option value="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" />
-        <option value="$PROJECT_DIR$/web/css/nav.css" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/barcode.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Stock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/BarcodeDAO.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/stock.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/StockDAO.java" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/StockController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
+        <option value="$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inc/head.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/user.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/system/customer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/web/jsp/fnd/user.jsp" />
       </list>
     </option>
   </component>
@@ -679,7 +431,7 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -722,6 +474,20 @@
     <option name="width" value="1366" />
     <option name="height" value="776" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -729,152 +495,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="fnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="fnd" type="462c0819:PsiDirectoryNode" />
-              <item name="modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540236491403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541874093468" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -884,22 +511,27 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21087681" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="RemoteServers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/jsp/system/modal" />
-      <recent name="$PROJECT_DIR$/web/jsp/system" />
-      <recent name="$PROJECT_DIR$/web/js" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/tags" />
-      <recent name="$PROJECT_DIR$/src/main/java/controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/jsp/product" />
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/jsp/fnd/modal" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/i18n" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+      <recent name="dao" />
+      <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/jsp/product/ajax" />
+      <recent name="$PROJECT_DIR$/web/jsp/product/modal" />
+      <recent name="$PROJECT_DIR$/web/jsp/product" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/tags" />
+      <recent name="$PROJECT_DIR$/web/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -914,7 +546,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.28" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -991,6 +623,18 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Unnamed" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
+      <deployment type="module" name="Maya">
+        <settings>
+          <option name="host" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Heroku Deployment.Unnamed" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1023,18 +667,32 @@
       <workItem from="1539954660478" duration="27000" />
       <workItem from="1540066471571" duration="11681000" />
       <workItem from="1540215907545" duration="109000" />
-      <workItem from="1540231800772" duration="4909000" />
+      <workItem from="1540231800772" duration="5165000" />
+      <workItem from="1540304152482" duration="2838000" />
+      <workItem from="1540314611428" duration="6629000" />
+      <workItem from="1540326768397" duration="7648000" />
+      <workItem from="1540648311932" duration="4974000" />
+      <workItem from="1540821407103" duration="674000" />
+      <workItem from="1540842346686" duration="9874000" />
+      <workItem from="1540910717350" duration="5300000" />
+      <workItem from="1540926987371" duration="12314000" />
+      <workItem from="1541188053913" duration="5453000" />
+      <workItem from="1541258030515" duration="3885000" />
+      <workItem from="1541273564738" duration="9416000" />
+      <workItem from="1541342662730" duration="10198000" />
+      <workItem from="1541523155559" duration="10593000" />
+      <workItem from="1541863731627" duration="7847000" />
+      <workItem from="1542031537762" duration="991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94979000" />
+    <option name="totallyTimeSpent" value="193869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-36" width="1366" height="804" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-40" width="1366" height="808" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949785" visible="true" weight="0.18882175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949785" weight="0.20694864" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22960725" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1042,15 +700,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.5050215" side_tool="true" weight="0.20543806" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32998565" />
+      <window_info active="true" anchor="bottom" id="Application Servers" order="0" visible="true" weight="0.32998565" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.30416068" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.38450503" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31994262" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4175036" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32998565" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.35339507" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -1107,60 +765,92 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java</url>
-          <line>178</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/UserController.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/UserController.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PriceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="2520">
+          <caret line="180" column="13" selection-start-line="175" selection-start-column="12" selection-end-line="180" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/PriceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="1515">
+          <caret line="113" column="107" selection-start-line="112" selection-start-column="20" selection-end-line="113" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/autocompletepi/jquery.autocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TypeStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/mayadev.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tag/CustomerTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.mask.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/system/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/collection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/autocompletepi/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/price.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1171,349 +861,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/redirect.jsp">
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1208">
-          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/datatables/JSZip-2.5.0/jszip.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/popper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/head_default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-jdk/jre/lib/rt.jar!/com/sun/security/auth/callback/TextCallbackHandler.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/email.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="124" selection-start-line="28" selection-start-column="124" selection-end-line="28" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/mayadev.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/autocompletepi/jquery.autocomplete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/hidden.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/autocompletepi/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/dsl/Mirror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/DefaultAccessorsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/invoke/DefaultInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/IDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/datatables/datatables.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/character.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="155" selection-start-line="28" selection-start-column="155" selection-end-line="28" selection-end-column="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/password.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/BCrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10710">
-          <caret line="719" column="47" selection-start-line="719" selection-start-column="37" selection-end-line="719" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+        <state relative-caret-position="98">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tag/CustomerTag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/BCrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="60" column="37" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="37" />
+        <state relative-caret-position="518">
+          <caret line="781" selection-start-line="781" selection-end-line="781" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Barcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/type_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/BarcodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/barcode.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="27" />
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/left_menu.jsp">
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/stock.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="61" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/head.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/BarcodeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="2220">
+          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StockController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="1755">
+          <caret line="129" column="89" selection-start-line="129" selection-start-column="89" selection-end-line="129" selection-end-column="89" />
+          <folding>
+            <element signature="method#editStock#0;class#StockController#0" />
+            <element signature="method#deleteStock#0;class#StockController#0" />
+            <element signature="method#viewEdit#0;class#StockController#0" />
+            <element signature="method#barcodeStock#0;class#StockController#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="690">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/StockDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="-922">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
+    <entry file="file://$PROJECT_DIR$/web/jsp/inc/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="293">
+          <caret line="104" column="46" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/system/customer.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/provider/java/PureJavaMethodReflectionProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="method#edit#0;class#UserDAO#0" />
-          </folding>
+        <state relative-caret-position="188">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/invoke/MethodHandlerByMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="203">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/invoke/MethodHandlerByName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="127">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/provider/java/PureJavaMethodReflectionProvider.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="675">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CustomerDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2205">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/ObjectMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#finalize#0;class#ObjectMethod#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#543#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="39" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1065">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#602#608#0" expanded="true" />
-            <element signature="method#editUser#0;class#UserController#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="135">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="method#doGet#0;class#ControllerServlet#0" />
             <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
             <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1524,10 +1126,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
-              <type id="library" />
               <type id="artifact" />
+              <type id="library" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>Maya:Web exploded</last-edited>
@@ -1547,7 +1149,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21087681" />
               </list>
             </option>
           </splitter-proportions>
@@ -1558,7 +1160,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21087681" />
               </list>
             </option>
           </splitter-proportions>
@@ -1570,7 +1172,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21087681" />
               </list>
             </option>
           </splitter-proportions>
@@ -1583,6 +1185,7 @@
             <option name="proportions">
               <list>
                 <option value="0.21087681" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

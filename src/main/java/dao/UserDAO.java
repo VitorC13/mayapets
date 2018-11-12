@@ -1,6 +1,8 @@
 package dao;
 
 import model.User;
+import util.BCrypt;
+import util.ObjectMethod;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -68,7 +70,7 @@ public class UserDAO implements IDao<User> {
                 } else {
                     stmt.setString(++contador, fnduser.getAddress());
                 }
-                stmt.setLong(++contador, fnduser.getIdCustomer());
+                stmt.setLong(++contador, fnduser.getCustomer().getId());
                 stmt.executeUpdate();
                 this.connection.commit();
             }
@@ -81,9 +83,9 @@ public class UserDAO implements IDao<User> {
 
 /////////##EDIT/////////////////
 
-    public void edit(User fnduser) throws SQLException {
+    public void edit(User user) throws SQLException {
         int contador = 0;
-        String sql = "UPDATE public.fnd_user SET "
+        String sql = "UPDATE fnd_user SET "
                 + "name = ? ,"
                 + "password = ? ,"
                 + "login = ? ,"
@@ -91,38 +93,32 @@ public class UserDAO implements IDao<User> {
                 + "email = ? ,"
                 + "address = ? ,"
                 + "id_customer = ? ,"
-                + "date_created = ? ,"
-                + "date_update = ? ,"
-                + "active = ? ,"
-                + "is_deleted= ? "
+                + "date_update = now()"
                 + " WHERE id = ?;";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
 
-            stmt.setString(++contador, fnduser.getName());
-            stmt.setString(++contador, fnduser.getPassword());
-            stmt.setString(++contador, fnduser.getLogin());
-            stmt.setLong(++contador, fnduser.getIdCustomer());
-            stmt.setTimestamp(++contador, fnduser.getDateCreated());
-            stmt.setTimestamp(++contador, fnduser.getDateUpdate());
-            stmt.setBoolean(++contador, fnduser.isActive());
-            stmt.setBoolean(++contador, fnduser.isDeleted());
-            stmt.setLong(++contador, fnduser.getId());
-            if (fnduser.getCpf() == null) {
+            stmt.setString(++contador, user.getName());
+            stmt.setString(++contador, user.getPassword());
+            stmt.setString(++contador, user.getLogin());
+            if (user.getCpf() == null) {
                 stmt.setNull(++contador, java.sql.Types.VARCHAR);
             } else {
-                stmt.setString(++contador, fnduser.getCpf());
+                stmt.setString(++contador, user.getCpf());
             }
-            if (fnduser.getEmail() == null) {
+            if (user.getEmail() == null) {
                 stmt.setNull(++contador, java.sql.Types.VARCHAR);
             } else {
-                stmt.setString(++contador, fnduser.getEmail());
+                stmt.setString(++contador, user.getEmail());
             }
-            if (fnduser.getAddress() == null) {
+            if (user.getAddress() == null) {
                 stmt.setNull(++contador, java.sql.Types.VARCHAR);
             } else {
-                stmt.setString(++contador, fnduser.getAddress());
+                stmt.setString(++contador, user.getAddress());
             }
+            stmt.setLong(++contador, user.getCustomer().getId());
+            stmt.setLong(++contador, user.getId());
+
             stmt.executeUpdate();
             stmt.close();
         } catch (SQLException e) {
@@ -160,7 +156,7 @@ public class UserDAO implements IDao<User> {
                     fnduser.setCpf(rs.getString("cpf"));
                     fnduser.setEmail(rs.getString("email"));
                     fnduser.setAddress(rs.getString("address"));
-                    fnduser.setIdCustomer(rs.getLong("id_customer"));
+                    fnduser.setCustomer(new CustomerDAO(connection).search(rs.getLong("id_customer")));
                     fnduser.setDateCreated(rs.getTimestamp("date_created"));
                     fnduser.setDateUpdate(rs.getTimestamp("date_update"));
                     fnduser.setActive(rs.getBoolean("active"));
@@ -172,7 +168,7 @@ public class UserDAO implements IDao<User> {
                 return listfnduser;
             }
         } catch (SQLException e) {
-            System.out.println("=== ALLINDROP: Exception: " + e.toString() + " ===");
+            System.out.println("===Exception: " + e.toString() + " ===");
         }
         return null;
     }
@@ -181,9 +177,15 @@ public class UserDAO implements IDao<User> {
 
     public void delete(Long id) {
         String sql = "UPDATE fnd_user SET active=false, date_update=now(), is_deleted=true WHERE id = ?;";
+        ObjectMethod.deleteMethod(id, sql, connection);
+    }
+
+    public void resetPass(Long id) {
+        String sql = "UPDATE fnd_user SET password = ? WHERE id = ?;";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
-            stmt.setLong(1, id);
+            stmt.setString(1, BCrypt.hashpw("123456", BCrypt.gensalt(15)));
+            stmt.setLong(2, id);
             stmt.execute();
             stmt.close();
         } catch (SQLException e) {
@@ -196,7 +198,7 @@ public class UserDAO implements IDao<User> {
 
     public User search(Long id) {
         try {
-            User fnduser = new User();
+            User user = new User();
             try (PreparedStatement stmt = this.connection.prepareStatement("SELECT "
                     + "id, "
                     + "name, "
@@ -209,18 +211,36 @@ public class UserDAO implements IDao<User> {
                     + "date_created, "
                     + "date_update, "
                     + "active, "
-                    + "is_deleted, "
-                    + " coalesce(date_updated, date_created) AS date_updated"
-                    + "   FROM public.fnd_user where id = ?;")) {
+                    + "is_deleted "
+                    + "   FROM fnd_user where id = ?;")) {
                 stmt.setLong(1, id);
                 ResultSet rs = stmt.executeQuery();
-                fndUserObject(fnduser, rs);
+                userObject(user, rs);
                 rs.close();
                 stmt.close();
             }
-            return fnduser;
+            return user;
         } catch (SQLException e) {
-            System.out.println("=== ALLINDROP: Exception: " + e.toString() + " ===");
+            System.out.println("===Exception: " + e.toString() + " ===");
+        }
+        return null;
+    }
+
+    public Boolean searchLogin(String login) {
+        try {
+            Boolean exist = false;
+            try (PreparedStatement stmt = this.connection.prepareStatement("SELECT login FROM fnd_user where login = ?;")) {
+                stmt.setString(1, login);
+                ResultSet rs = stmt.executeQuery();
+                if (rs.next()) {
+                    exist = true;
+                }
+                rs.close();
+                stmt.close();
+            }
+            return exist;
+        } catch (SQLException e) {
+            System.out.println("===Exception: " + e.toString() + " ===");
         }
         return null;
     }
@@ -229,7 +249,7 @@ public class UserDAO implements IDao<User> {
 
     public User autenthicBCrypt(String login) {
         try {
-            User fnduser = new User();
+            User user = new User();
             try (PreparedStatement stmt = this.connection.prepareStatement("SELECT "
                     + "id, "
                     + "name, "
@@ -247,18 +267,17 @@ public class UserDAO implements IDao<User> {
                     + "   FROM maya.fnd_user where login = ?;")) {
                 stmt.setString(1, login);
                 ResultSet rs = stmt.executeQuery();
-                fndUserObject(fnduser, rs);
+                userObject(user, rs);
                 rs.close();
-                stmt.close();
             }
-            return fnduser;
+            return user;
         } catch (SQLException e) {
             System.out.println("=== ALLINDROP: Exception: " + e.toString() + " ===");
         }
         return null;
     }
 
-    private void fndUserObject(User fnduser, ResultSet rs) throws SQLException {
+    private void userObject(User fnduser, ResultSet rs) throws SQLException {
         if (rs.next()) {
             fnduser.setId(rs.getLong("id"));
             fnduser.setName(rs.getString("name"));
@@ -267,7 +286,7 @@ public class UserDAO implements IDao<User> {
             fnduser.setCpf(rs.getString("cpf"));
             fnduser.setEmail(rs.getString("email"));
             fnduser.setAddress(rs.getString("address"));
-            fnduser.setIdCustomer(rs.getLong("id_customer"));
+            fnduser.setCustomer(new CustomerDAO(connection).search(rs.getLong("id_customer")));
             fnduser.setDateCreated(rs.getTimestamp("date_created"));
             fnduser.setDateUpdate(rs.getTimestamp("date_update"));
             fnduser.setActive(rs.getBoolean("active"));

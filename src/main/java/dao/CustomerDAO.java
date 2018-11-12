@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Customer;
+import util.ObjectMethod;
 
 public class CustomerDAO implements IDao<Customer> {
     private final Connection connection;
@@ -78,7 +79,7 @@ public class CustomerDAO implements IDao<Customer> {
 
 /////////##EDIT/////////////////
 
-    public void edit(Customer fndcustomer) throws SQLException {
+    public void edit(Customer customer) throws SQLException {
         int contador = 0;
         String sql = "UPDATE fnd_customer SET "
                 + "name = ? ,"
@@ -87,41 +88,35 @@ public class CustomerDAO implements IDao<Customer> {
                 + "country = ? ,"
                 + "state = ? ,"
                 + "city = ? ,"
-                + "date_created = ? ,"
-                + "date_updated = ? ,"
-                + "active = ? ,"
-                + "is_deleted= ? "
+                + "date_updated = now() "
                 + " WHERE id = ?;";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
 
-            stmt.setString(++contador, fndcustomer.getName());
-            stmt.setString(++contador, fndcustomer.getAddress());
-            stmt.setString(++contador, fndcustomer.getCountry());
-            stmt.setTimestamp(++contador, fndcustomer.getDateCreated());
-            stmt.setTimestamp(++contador, fndcustomer.getDateUpdated());
-            stmt.setBoolean(++contador, fndcustomer.getActive());
-            stmt.setBoolean(++contador, fndcustomer.getDeleted());
-            stmt.setLong(++contador, fndcustomer.getId());
-            if (fndcustomer.getCpfCnpj() == null) {
+            stmt.setString(++contador, customer.getName());
+            if (customer.getCpfCnpj() == null) {
                 stmt.setNull(++contador, java.sql.Types.VARCHAR);
             } else {
-                stmt.setString(++contador, fndcustomer.getCpfCnpj());
+                stmt.setString(++contador, customer.getCpfCnpj());
             }
-            if (fndcustomer.getState() == null) {
+            stmt.setString(++contador, customer.getAddress());
+            stmt.setString(++contador, customer.getCountry());
+            if (customer.getState() == null) {
                 stmt.setNull(++contador, java.sql.Types.VARCHAR);
             } else {
-                stmt.setString(++contador, fndcustomer.getState());
+                stmt.setString(++contador, customer.getState());
             }
-            if (fndcustomer.getCity() == null) {
+            if (customer.getCity() == null) {
                 stmt.setNull(++contador, java.sql.Types.VARCHAR);
             } else {
-                stmt.setString(++contador, fndcustomer.getCity());
+                stmt.setString(++contador, customer.getCity());
             }
+            stmt.setLong(++contador, customer.getId());
+
             stmt.executeUpdate();
             stmt.close();
         } catch (SQLException e) {
-            System.out.println("=== ALLINDROP: Exception: " + e.toString() + " ===");
+            System.out.println("=== Exception: " + e.toString() + " ===");
             throw new RuntimeException(e);
         }
     }
@@ -176,15 +171,7 @@ public class CustomerDAO implements IDao<Customer> {
 
     public void delete(Long id) {
         String sql = "UPDATE fnd_customer SET active=false, date_updated=now(), is_deleted=true WHERE id = ?;";
-        try {
-            PreparedStatement stmt = connection.prepareStatement(sql);
-            stmt.setLong(1, id);
-            stmt.execute();
-            stmt.close();
-        } catch (SQLException e) {
-            System.out.println("===Exception: " + e.toString() + " ===");
-            throw new RuntimeException(e);
-        }
+        ObjectMethod.deleteMethod(id, sql, connection);
     }
 
 /////////##SEARCH/////////////////
@@ -197,6 +184,7 @@ public class CustomerDAO implements IDao<Customer> {
                     + "name, "
                     + "cpf_cnpj, "
                     + "address, "
+                    + "razao_social, "
                     + "country, "
                     + "state, "
                     + "city, "
@@ -212,6 +200,7 @@ public class CustomerDAO implements IDao<Customer> {
                     fndcustomer.setName(rs.getString("name"));
                     fndcustomer.setCpfCnpj(rs.getString("cpf_cnpj"));
                     fndcustomer.setAddress(rs.getString("address"));
+                    fndcustomer.setRazaoSocial(rs.getString("razao_social"));
                     fndcustomer.setCountry(rs.getString("country"));
                     fndcustomer.setState(rs.getString("state"));
                     fndcustomer.setCity(rs.getString("city"));
