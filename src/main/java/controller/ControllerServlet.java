@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 @WebServlet(name = "ControllerServlet",
         urlPatterns = {"/maya", "/Login", "/Home", "/User", "https://mayapets.herokuapp.com/", "/mayapets.herokuapp.com/",
-                "/Customer", "/Product", "/Collection", "/Price", "/Stock", "/Barcode"})
+                "/Customer", "/Product", "/Collection", "/Price", "/Stock", "/Barcode", "/"})
 public class ControllerServlet extends HttpServlet {
 
     @Override
