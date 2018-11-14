@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -233,8 +231,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+            <state relative-caret-position="300">
+              <caret line="35" column="112" lean-forward="true" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
               <folding>
                 <element signature="method#doGet#0;class#ControllerServlet#0" />
                 <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
@@ -484,7 +482,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542228750696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542229218134" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/META-INF" />
@@ -673,16 +671,15 @@
       <workItem from="1542045866435" duration="3641000" />
       <workItem from="1542058324491" duration="4906000" />
       <workItem from="1542199622545" duration="6581000" />
-      <workItem from="1542216290140" duration="10009000" />
+      <workItem from="1542216290140" duration="10259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225108000" />
+    <option name="totallyTimeSpent" value="225358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-40" width="1366" height="808" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949785" visible="true" weight="0.20996979" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22960725" />
@@ -696,12 +693,12 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998565" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.25394547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.35007173" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.35007173" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4045911" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4045911" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.35339507" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32998565" />
@@ -1123,8 +1120,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+        <state relative-caret-position="300">
+          <caret line="35" column="112" lean-forward="true" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
           <folding>
             <element signature="method#doGet#0;class#ControllerServlet#0" />
             <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
