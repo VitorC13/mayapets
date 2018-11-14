@@ -15,7 +15,7 @@
 <%@page contentType="text/html" pageEncoding="iso-8859-1" %>
 <%
     Connection connection = null;
-    connection = ConnectionFactory.openConnection();
+    connection = ConnectionFactory.getConnection();
     PriceDAO dao = new PriceDAO(connection);
     List<Price> list = null;
     try {

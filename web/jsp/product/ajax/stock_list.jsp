@@ -15,7 +15,11 @@
 <%@page contentType="text/html" pageEncoding="iso-8859-1" %>
 <%
     Connection connection = null;
-    connection = ConnectionFactory.openConnection();
+    try {
+        connection = ConnectionFactory.getConnection();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
     StockDAO dao = new StockDAO(connection);
     List<Stock> list = null;
     try {

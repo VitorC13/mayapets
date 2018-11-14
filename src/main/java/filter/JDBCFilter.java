@@ -1,6 +1,7 @@
 package filter;
 
 import jndi.ConnectionFactory;
+import jndi.ConnectionUtils;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -52,7 +53,7 @@ public class JDBCFilter implements Filter {
             Connection conn = null;
             try {
                 // Create a Connection.
-                conn = ConnectionFactory.openConnection();
+                conn = ConnectionUtils.getConnection();
                 // Set auto commit = false
                 conn.setAutoCommit(false);
 
@@ -65,7 +66,7 @@ public class JDBCFilter implements Filter {
                 // Call commit() to commit transaction.
                 conn.commit();
             } catch (Exception e) {
-                ConnectionFactory.closeConnection();
+                ConnectionUtils.rollbackQuietly(conn);
 
                 final StringWriter sw = new StringWriter();
                 final PrintWriter pw = new PrintWriter(sw, true);
@@ -87,7 +88,7 @@ public class JDBCFilter implements Filter {
                System.out.println("=== JDBCFilter Exception: " + e.toString() + " ===");
                 
             } finally {
-                ConnectionFactory.closeConnection();
+                ConnectionUtils.closeQuietly(conn);
             }
         } // For common request.
         else {

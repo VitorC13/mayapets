@@ -122,7 +122,7 @@ public class UserDAO implements IDao<User> {
             stmt.executeUpdate();
             stmt.close();
         } catch (SQLException e) {
-            System.out.println("=== ALLINDROP: Exception: " + e.toString() + " ===");
+            System.out.println("===: Exception: " + e.toString() + " ===");
             throw new RuntimeException(e);
         }
     }
@@ -264,7 +264,7 @@ public class UserDAO implements IDao<User> {
                     + "active, "
                     + "is_deleted, "
                     + " coalesce(date_created) AS date_updated"
-                    + "   FROM maya.fnd_user where login = ?;")) {
+                    + "   FROM fnd_user where login = ?;")) {
                 stmt.setString(1, login);
                 ResultSet rs = stmt.executeQuery();
                 userObject(user, rs);
@@ -272,7 +272,7 @@ public class UserDAO implements IDao<User> {
             }
             return user;
         } catch (SQLException e) {
-            System.out.println("=== ALLINDROP: Exception: " + e.toString() + " ===");
+            System.out.println("===: Exception: " + e.toString() + " ===");
         }
         return null;
     }

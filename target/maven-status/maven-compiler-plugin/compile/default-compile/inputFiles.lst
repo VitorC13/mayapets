@@ -7,6 +7,7 @@
 /home/vitor/Documents/JavaProjects/Maya/src/main/java/model/Barcode.java
 /home/vitor/Documents/JavaProjects/Maya/src/main/java/controller/ControllerServlet.java
 /home/vitor/Documents/JavaProjects/Maya/src/main/java/controller/LoginController.java
+/home/vitor/Documents/JavaProjects/Maya/src/main/java/jndi/ConnectionUtils.java
 /home/vitor/Documents/JavaProjects/Maya/src/main/java/dao/BarcodeDAO.java
 /home/vitor/Documents/JavaProjects/Maya/src/main/java/model/Stock.java
 /home/vitor/Documents/JavaProjects/Maya/src/main/java/dao/CustomerDAO.java

@@ -7,8 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maya/maya.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maya/maya.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tag/CustomerTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tag/CustomerTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Maya-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Maya-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jndi/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jndi/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/ajax/customer_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/fnd/ajax/customer_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/collection_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/product/ajax/collection_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/price_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/product/ajax/price_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/product/ajax/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/stock_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/product/ajax/stock_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tag/CustomerTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tag/CustomerTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency/javaee-endorsed-api-7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +91,7 @@
     <session id="-661764701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.113" value="1" />
@@ -69,8 +101,10 @@
           <entry key="project.open.time.138" value="1" />
           <entry key="project.open.time.140" value="2" />
           <entry key="project.open.time.142" value="1" />
+          <entry key="project.open.time.146" value="1" />
           <entry key="project.open.time.151" value="1" />
           <entry key="project.open.time.152" value="1" />
+          <entry key="project.open.time.160" value="1" />
           <entry key="project.open.time.179" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -81,6 +115,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.86" value="1" />
@@ -93,20 +128,20 @@
           <entry key="project.open.time.97" value="2" />
           <entry key="project.open.time.98" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="JAVA" value="6804" />
-          <entry key="JSP" value="7069" />
+          <entry key="JAVA" value="6965" />
+          <entry key="JSP" value="7072" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Properties" value="569" />
+          <entry key="Properties" value="570" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="38" />
-          <entry key="XML" value="115" />
+          <entry key="XML" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -115,15 +150,15 @@
           <entry key="cell" value="38" />
           <entry key="css" value="4" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="6804" />
+          <entry key="java" value="6965" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="7046" />
-          <entry key="properties" value="569" />
+          <entry key="jsp" value="7049" />
+          <entry key="properties" value="570" />
           <entry key="sql" value="8" />
           <entry key="tag" value="23" />
           <entry key="tld" value="22" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="93" />
+          <entry key="xml" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -134,14 +169,14 @@
           <entry key="css" value="7" />
           <entry key="customer" value="1" />
           <entry key="fnd_user" value="2" />
-          <entry key="java" value="273" />
+          <entry key="java" value="280" />
           <entry key="js" value="14" />
-          <entry key="jsp" value="138" />
-          <entry key="properties" value="15" />
+          <entry key="jsp" value="141" />
+          <entry key="properties" value="18" />
           <entry key="sql" value="3" />
           <entry key="tag" value="9" />
           <entry key="tld" value="3" />
-          <entry key="xml" value="20" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -150,13 +185,13 @@
           <entry key="CLASS" value="3" />
           <entry key="CSS" value="7" />
           <entry key="Database Element" value="3" />
-          <entry key="JAVA" value="273" />
-          <entry key="JSP" value="147" />
+          <entry key="JAVA" value="280" />
+          <entry key="JSP" value="150" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="15" />
+          <entry key="Properties" value="18" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -168,44 +203,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="456">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="102" selection-start-column="102" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="-192">
+              <caret line="261" column="38" lean-forward="true" selection-start-line="261" selection-start-column="38" selection-end-line="261" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -213,35 +230,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ObjectMethod.java">
+        <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,9 +276,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="98">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="method#doGet#0;class#ControllerServlet#0" />
@@ -271,9 +306,9 @@
         <option value="Interface" />
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -283,7 +318,11 @@
       <find>s'</find>
       <find>jQuery</find>
       <find>web-app</find>
+      <find>connection = ConnectionFactory.openConnection();</find>
     </findStrings>
+    <replaceStrings>
+      <replace>connection = ConnectionFactory.getConnection();</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -291,12 +330,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/Price.java" />
-        <option value="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Collection.java" />
-        <option value="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/PriceController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/double.tag" />
         <option value="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" />
@@ -313,14 +346,12 @@
         <option value="$PROJECT_DIR$/web/jsp/product/collection.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product/price.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/util/BCrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Barcode.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" />
         <option value="$PROJECT_DIR$/web/jsp/product/modal/barcode.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/text.properties" />
         <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" />
-        <option value="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product/barcode.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Stock.java" />
@@ -334,14 +365,22 @@
         <option value="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inc/head.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/jsp/fnd/user.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ObjectMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tag/CustomerTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
       </list>
     </option>
   </component>
@@ -419,24 +458,6 @@
             <path>
               <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
               <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="maya" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -451,6 +472,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
@@ -459,13 +496,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jndi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maya" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,14 +508,14 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542048954618" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542223945937" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/META-INF" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21087681" />
     <property name="settings.editor.selected.configurable" value="RemoteServers" />
@@ -664,12 +694,15 @@
       <workItem from="1542031537762" duration="991000" />
       <workItem from="1542032838687" duration="5322000" />
       <workItem from="1542040618136" duration="780000" />
-      <workItem from="1542045866435" duration="3182000" />
+      <workItem from="1542045866435" duration="3641000" />
+      <workItem from="1542058324491" duration="4906000" />
+      <workItem from="1542199622545" duration="6581000" />
+      <workItem from="1542216290140" duration="5301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203153000" />
+    <option name="totallyTimeSpent" value="220400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-40" width="1366" height="808" extended-state="6" />
@@ -686,13 +719,13 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32988167" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.31707317" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4175036" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.47632712" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.35150644" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4045911" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4045911" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.35339507" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32998565" />
@@ -706,7 +739,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.15785499" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.14954683" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.14954683" />
       <window_info anchor="right" id="JSF" order="9" weight="0.32930514" />
       <window_info anchor="right" id="CDI" order="10" weight="0.32930514" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.32930514" />
@@ -748,20 +781,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/LoginController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/LoginController.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/mayadev.tld">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tag/CustomerTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.mask.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/system/customer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1770">
@@ -808,13 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -898,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -937,12 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="129" column="89" selection-start-line="129" selection-start-column="89" selection-end-line="129" selection-end-column="89" />
-          <folding>
-            <element signature="method#editStock#0;class#StockController#0" />
-            <element signature="method#deleteStock#0;class#StockController#0" />
-            <element signature="method#viewEdit#0;class#StockController#0" />
-            <element signature="method#barcodeStock#0;class#StockController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,67 +1030,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ObjectMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="method#doGet#0;class#ControllerServlet#0" />
-            <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
-            <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="2220">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1083,24 +1051,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ObjectMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tag/CustomerTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="method#doGet#0;class#ControllerServlet#0" />
+            <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
+            <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="105">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="36" />
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="120">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="261" column="38" lean-forward="true" selection-start-line="261" selection-start-column="38" selection-end-line="261" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1112,9 +1165,9 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
+              <type id="jpa-descriptors" />
               <type id="javaee-facet-resources" />
               <type id="library" />
-              <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
           <last-edited>Maya:Web archived</last-edited>

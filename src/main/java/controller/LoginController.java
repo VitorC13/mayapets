@@ -21,7 +21,7 @@ public class LoginController implements Controller {
         System.out.println("Finalize is CALLED ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
         try {
             new ConnectionFactory();
-            ConnectionFactory.openConnection().close();
+            ConnectionFactory.getConnection().close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

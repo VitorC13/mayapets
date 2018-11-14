@@ -24,6 +24,7 @@ controller/CustomerController.class
 controller/PriceController.class
 model/Barcode.class
 filter/MyUtils.class
+jndi/ConnectionUtils.class
 model/Price.class
 dao/CollectionDAO.class
 dao/UserDAO.class

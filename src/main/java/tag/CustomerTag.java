@@ -60,7 +60,7 @@ public class CustomerTag extends SimpleTagSupport {
 
         Connection connection = null;
         try {
-            connection = ConnectionFactory.openConnection();
+            connection = ConnectionFactory.getConnection();
 
         } catch (Exception ex) {
             ex.printStackTrace();

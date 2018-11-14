@@ -15,7 +15,7 @@
 <%@page contentType="text/html" pageEncoding="iso-8859-1" %>
 <%
     Connection connection = null;
-    connection = ConnectionFactory.openConnection();
+    connection = ConnectionFactory.getConnection();
     CollectionDAO dao = new CollectionDAO(connection);
     List<Collection> list = null;
     try {
