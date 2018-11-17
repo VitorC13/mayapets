@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT out/artifacts/maya/maya.war
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT out/artifacts/maya/maya.war  --enable-naming --port $PORT
