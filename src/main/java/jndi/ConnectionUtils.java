@@ -1,6 +1,7 @@
 package jndi;
 
 import org.mariadb.jdbc.MySQLDataSource;
+import sun.security.ssl.Debug;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -33,6 +34,7 @@ public class ConnectionUtils {
             throw new Exception("Data source not found!");
 
         }
+
 
         /*URI jdbUri = new URI(System.getenv("JAWSDB_URL"));
 
