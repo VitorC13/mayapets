@@ -20,7 +20,7 @@
         <c:set var="title" value="Nova"/>
     </c:otherwise>
 </c:choose>
-<link href="/maya/js/autocompletepi/styles.css" rel="stylesheet"/>
+<link href="${pageContext.request.contextPath}/js/autocompletepi/styles.css" rel="stylesheet"/>
 <div class="modal fade bd-example-modal-md" tabindex="-1" id="customerForm" role="dialog">
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
@@ -73,8 +73,8 @@
         </div>
     </div>
 </div>
-<script src="/maya/js/jquery.min.js"></script>
-<script src="/maya/js/jquery.mask.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.mask.min.js"></script>
 <script type="text/javascript">
     var edit = document.querySelector("#edit");
 

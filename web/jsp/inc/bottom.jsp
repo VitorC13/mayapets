@@ -8,13 +8,13 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/maya/js/jquery-ui.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery-ui.min.js"></script>
 
-<script src="/maya/js/popper.js"></script>
+<script src="${pageContext.request.contextPath}/js/popper.js"></script>
 
-<script src="/maya/js/datatables/datatables.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/datatables/datatables.min.js"></script>
 
-<script src="/maya/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     var url = document.URL;
     //var resultado = url.split("/");

@@ -8,9 +8,18 @@
   <component name="ChangeListManager">
     <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maya/maya.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maya/maya.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jndi/ConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jndi/ConnectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,7 +115,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="JAVA" value="7120" />
-          <entry key="JSP" value="7074" />
+          <entry key="JSP" value="7085" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="Properties" value="570" />
@@ -123,7 +132,7 @@
           <entry key="dummy" value="2" />
           <entry key="java" value="7120" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="7051" />
+          <entry key="jsp" value="7062" />
           <entry key="properties" value="570" />
           <entry key="sql" value="8" />
           <entry key="tag" value="23" />
@@ -142,7 +151,7 @@
           <entry key="fnd_user" value="2" />
           <entry key="java" value="284" />
           <entry key="js" value="14" />
-          <entry key="jsp" value="145" />
+          <entry key="jsp" value="158" />
           <entry key="properties" value="19" />
           <entry key="sql" value="3" />
           <entry key="tag" value="9" />
@@ -157,7 +166,7 @@
           <entry key="CSS" value="7" />
           <entry key="Database Element" value="3" />
           <entry key="JAVA" value="284" />
-          <entry key="JSP" value="154" />
+          <entry key="JSP" value="167" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="19" />
@@ -172,90 +181,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filter/JDBCFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-              <folding>
-                <element signature="method#doGet#0;class#ControllerServlet#0" />
-                <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
-                <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
-              </folding>
+            <state relative-caret-position="398">
+              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java">
+        <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1890">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -263,8 +237,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="195">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -304,12 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/TypeStock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/PriceDAO.java" />
         <option value="$PROJECT_DIR$/web/jsp/product/ajax/customer_list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" />
@@ -323,19 +300,15 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Barcode.java" />
         <option value="$PROJECT_DIR$/web/jsp/product/modal/barcode.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/text.properties" />
-        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" />
-        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product/barcode.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Stock.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/BarcodeDAO.java" />
         <option value="$PROJECT_DIR$/web/jsp/product/stock.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/StockDAO.java" />
-        <option value="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/StockController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
         <option value="$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/inc/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/jsp/fnd/user.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
@@ -348,13 +321,23 @@
         <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/inc/head.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp" />
       </list>
     </option>
   </component>
@@ -524,7 +507,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542473905088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542478902674" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -716,16 +699,15 @@
       <workItem from="1542216290140" duration="11545000" />
       <workItem from="1542388535670" duration="61000" />
       <workItem from="1542462970562" duration="598000" />
-      <workItem from="1542468831682" duration="4408000" />
+      <workItem from="1542468831682" duration="5601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231711000" />
+    <option name="totallyTimeSpent" value="232904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-40" width="1366" height="808" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49238577" visible="true" weight="0.21299094" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22960725" />
@@ -738,7 +720,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32855093" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.4189383" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4189383" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.35007173" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -820,48 +802,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/jsp/system/customer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/collection.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/autocompletepi/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/price.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RedirectLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-jdk/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -928,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/BarcodeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -946,13 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -998,22 +924,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="104" column="46" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/vidageek/mirror/1.6.1/mirror-1.6.1-sources.jar!/net/vidageek/mirror/provider/java/PureJavaMethodReflectionProvider.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1086,27 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1168,6 +1059,97 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/inc/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/inc/head_default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/inc/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/fnd/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -20,7 +20,7 @@
         <c:set var="title" value="Novo"/>
     </c:otherwise>
 </c:choose>
-<link href="/maya/js/autocompletepi/styles.css" rel="stylesheet"/>
+<link href="${pageContext.request.contextPath}/js/autocompletepi/styles.css" rel="stylesheet"/>
 <div class="modal fade bd-example-modal-md" tabindex="-1" id="priceForm" role="dialog">
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
@@ -77,13 +77,13 @@
 </div>
 <c:import url="/jsp/product/ajax/collection_list.jsp"/>
 <c:import url="/jsp/product/ajax/product_list.jsp"/>
-<script src="/maya/js/jquery.min.js"></script>
-<script src="/maya/js/jquery.mask.min.js"></script>
-<script type="text/javascript" src="/maya/js/autocompletepi/jquery.autocomplete.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/autocompletepi/jquery.autocomplete.js"></script>
 <script type="text/javascript">
     var edit = document.querySelector("#edit");
 
-    function reloadModal() {
+    function reloadModal() {ss
         if (edit.value == "true") {
             window.location.href = "/maya/Price";
         }
