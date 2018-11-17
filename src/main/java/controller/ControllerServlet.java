@@ -31,7 +31,11 @@ public class ControllerServlet extends HttpServlet {
             String action = req.getServletPath();
             String className = action.split("/")[1];
             /// MIRROR JAVA REFLECTION
-            if (userLogago != null || className.equals("Login")) {
+            if (userLogago != null || className.equals("Login")
+                    || className.equals("Home")|| className.equals("User")
+                    || className.equals("Customer")|| className.equals("Collection")
+                    || className.equals("Price")|| className.equals("Product")
+                    || className.equals("Stock")|| className.equals("Barcode")) {
                 Class c = Class.forName("controller." + className + "Controller");
                 String pagWebRedirect = (String) new Mirror().on(c.newInstance()).invoke().method("runController").withArgs(req, resp);
                 req.getRequestDispatcher(pagWebRedirect).forward(req, resp);
