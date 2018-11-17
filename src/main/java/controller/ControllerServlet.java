@@ -16,7 +16,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @WebServlet(name = "ControllerServlet",
-        urlPatterns = {"/maya", "/Login", "/Home", "/User", "https://mayapets.herokuapp.com/", "/mayapets.herokuapp.com/",
+        urlPatterns = {"/maya", "/Login", "/Home", "/User",
                 "/Customer", "/Product", "/Collection", "/Price", "/Stock", "/Barcode", "/"})
 public class ControllerServlet extends HttpServlet {
 

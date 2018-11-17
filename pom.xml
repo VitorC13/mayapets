@@ -27,6 +27,8 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
+                    <warSourceDirectory>out/artifacts/maya/</warSourceDirectory>
+                    <warName>maya</warName>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
@@ -77,6 +79,7 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalName>maya</finalName>
     </build>
     <dependencies>
         <dependency>
