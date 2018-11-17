@@ -15,7 +15,7 @@ public class ConnectionUtils {
     public static Connection getConnection() throws NamingException, Exception {
 
         // Create a Connection to database.
-        Connection connection = null;
+        /*Connection connection = null;
 
         InitialContext cxt = null;
 
@@ -33,7 +33,7 @@ public class ConnectionUtils {
         if (ds == null) {
             throw new Exception("Data source not found!");
 
-        }
+        }*/
 
 
         /*URI jdbUri = new URI(System.getenv("JAWSDB_URL"));
@@ -44,7 +44,14 @@ public class ConnectionUtils {
         String jdbUrl = "jdbc:mysql://" + jdbUri.getHost() + ":" + port + jdbUri.getPath();
 
         return DriverManager.getConnection(jdbUrl, username, password);*/
-        return connection;
+
+        String user = "hlh7aaus57bp013b";
+        String pass = "bdw16smbs76kfwv7";
+        String url = "jdbc:mariadb://d5x4ae6ze2og6sjo.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/i9shqj3ela36kync";
+        String driverName = "org.mariadb.jdbc.Driver";
+        Class.forName(driverName);
+
+        return DriverManager.getConnection(url,user,pass);
     }
 
     public static void closeQuietly(Connection connection) {
