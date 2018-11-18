@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/maya">
     <Resources cacheMaxSize="100000" cachingAllowed="true"/>
-    <Resource maxAge="5000" driverClassName="org.mariadb.jdbc.Driver" logAbandoned="false" maxIdle="5" maxTotal="10" maxWaitMillis="7000" name="jdbc/mariadb" password="0122607" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="8" type="javax.sql.DataSource" url="jdbc:mariadb://localhost:3306/maya" username="root"/>
+    <Resource maxAge="5000" driverClassName="org.mariadb.jdbc.Driver" logAbandoned="false" maxIdle="5" maxTotal="10" maxWaitMillis="7000" name="jdbc/mariadb" password="bdw16smbs76kfwv7" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="8" type="javax.sql.DataSource" url="mysql://hlh7aaus57bp013b:bdw16smbs76kfwv7@d5x4ae6ze2og6sjo.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/i9shqj3ela36kync" username="hlh7aaus57bp013b"/>
 </Context>

@@ -51,9 +51,9 @@ public class ConnectionUtils {
         String url = "jdbc:mariadb://d5x4ae6ze2og6sjo.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/i9shqj3ela36kync";
         String driverName = "org.mariadb.jdbc.Driver";
         Class.forName(driverName);
-        Connection connection = DriverManager.getConnection(url,user,pass);
-        System.out.println(System.getenv("JAWSDB_URL"));
-        return connection;
+        //Connection connection = DriverManager.getConnection(url,user,pass);
+        //System.out.println(System.getenv("JAWSDB_URL"));
+        return DriverManager.getConnection(url,user,pass);
     }
 
     public static void closeQuietly(Connection connection) {
