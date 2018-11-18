@@ -37,22 +37,23 @@ public class ConnectionUtils {
 
         return connection;*/
 
-        URI jdbUri = new URI(System.getenv("JAWSDB_URL"));
+        /*URI jdbUri = new URI(System.getenv("JAWSDB_URL"));
 
         String username = jdbUri.getUserInfo().split(":")[0];
         String password = jdbUri.getUserInfo().split(":")[1];
         String port = String.valueOf(jdbUri.getPort());
         String jdbUrl = "jdbc:mysql://" + jdbUri.getHost() + ":" + port + jdbUri.getPath();
 
-        return DriverManager.getConnection(jdbUrl, username, password);
+        return DriverManager.getConnection(jdbUrl, username, password);*/
 
-        /*String user = "hlh7aaus57bp013b";
+        String user = "hlh7aaus57bp013b";
         String pass = "bdw16smbs76kfwv7";
         String url = "jdbc:mariadb://d5x4ae6ze2og6sjo.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/i9shqj3ela36kync";
         String driverName = "org.mariadb.jdbc.Driver";
         Class.forName(driverName);
-
-        return DriverManager.getConnection(url,user,pass);*/
+        Connection connection = DriverManager.getConnection(url,user,pass);
+        System.out.println(System.getenv("JAWSDB_URL"));
+        return connection;
     }
 
     public static void closeQuietly(Connection connection) {
