@@ -57,7 +57,7 @@
 
     function reloadModal() {
         if (edit.value == "true") {
-            window.location.href = "/maya/Collection";
+            window.history.back();
         }
     }
 </script>

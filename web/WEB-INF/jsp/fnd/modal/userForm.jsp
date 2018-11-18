@@ -89,7 +89,7 @@
 
     function reloadModal() {
         if (edit.value == "true") {
-            window.location.href = "/maya/User";
+            window.history.back();
         }
     }
 
@@ -123,7 +123,7 @@
     });
 
     function checkLogin(obj1) {
-        var path = '/maya/User?action=checkLogin&loginTry=';
+        var path = '${pageContext.request.contextPath}User?action=checkLogin&loginTry=';
         console.log(path);
         $.ajax({
             type: "GET",

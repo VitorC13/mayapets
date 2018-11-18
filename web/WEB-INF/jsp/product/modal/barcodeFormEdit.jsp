@@ -68,7 +68,7 @@
     var edit = document.querySelector("#edit");
     function reloadModal() {
         if (edit.value == "true") {
-            window.location.href = "/maya/Barcode";
+            window.history.back();
         }
     }
     var listStockArray = $.map(listStock, function (value, key) {

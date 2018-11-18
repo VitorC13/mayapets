@@ -80,7 +80,7 @@
 
     function reloadModal() {
         if (edit.value == "true") {
-            window.location.href = "/maya/Customer";
+            window.history.back();
         }
     }
 

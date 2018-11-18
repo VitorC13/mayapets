@@ -7,32 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a69663-a2d3-4d0a-8b27-faab79dd0b20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Maya_Web_archived.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Maya_Web_archived.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Maya.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/maya/maya.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maya/maya.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/BarcodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CollectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CollectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PriceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/RedirectLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/RedirectLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/tags/character.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/tags/double.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/tags/email.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/tags/hidden.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/tags/password.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/tlds/mayadev.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Maya/jndi/ConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Maya/jndi/ConnectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/BarcodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/BarcodeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/CollectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CollectionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/HomeController.class" afterDir="false" />
@@ -42,308 +23,18 @@
       <change beforePath="$PROJECT_DIR$/target/classes/controller/RedirectLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/RedirectLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/StockController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/StockController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/nav.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/BarcodeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/BarcodeDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/CollectionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/CollectionDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/IDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/PriceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/PriceDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/StockDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/StockDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/JDBCFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/filter/MyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/filter/MyUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jndi/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jndi/ConnectionFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jndi/ConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jndi/ConnectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/autocompletepi/jquery.autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/autocompletepi/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/css/autoFill.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/autoFill.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/dataTables.autoFill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/AutoFill-2.2.2/js/dataTables.autoFill.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/buttons.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/common.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/css/mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.colVis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.colVis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.flash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.flash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.html5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.print.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/buttons.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/dataTables.buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/js/dataTables.buttons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Buttons-1.5.1/swf/flashExport.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/css/colReorder.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/js/dataTables.colReorder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/ColReorder-1.4.1/js/dataTables.colReorder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/dataTables.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/jquery.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/css/jquery.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/dataTables.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/DataTables-1.10.16/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/JSZip-2.5.0/jszip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/JSZip-2.5.0/jszip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/css/keyTable.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/js/dataTables.keyTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/KeyTable-2.3.2/js/dataTables.keyTable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/css/responsive.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/dataTables.responsive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Responsive-2.2.1/js/responsive.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/css/scroller.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/js/dataTables.scroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Scroller-1.4.4/js/dataTables.scroller.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/css/select.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/js/dataTables.select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/Select-1.2.5/js/dataTables.select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/datatables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/pdfmake-0.1.32/pdfmake.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/pdfmake-0.1.32/pdfmake.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/datatables/pdfmake-0.1.32/vfs_fonts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/jquery.mask.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/ajax/check_login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/ajax/customer_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/modal/userForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/redirect.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/fnd/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/bottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/bottom_default.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/head_default.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/inc/left_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/collection_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/price_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/product_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/stock_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/ajax/type_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/barcode.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/collection.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/modal/barcodeForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/modal/barcodeFormEdit.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/modal/collectionForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/modal/priceForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/modal/productForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/modal/stockForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/price.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/product.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/product/stock.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/system/customer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsp/system/modal/customerForm.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Barcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Barcode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Collection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Customer.class" afterDir="false" />
@@ -357,38 +48,15 @@
       <change beforePath="$PROJECT_DIR$/target/classes/util/BCrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/BCrypt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/util/ObjectField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ObjectField.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ObjectMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maya.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/maya.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/ajax/check_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/ajax/check_login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/ajax/customer_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/ajax/customer_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/redirect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/redirect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/inc/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/bottom_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/inc/bottom_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/inc/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/head_default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/inc/head_default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/inc/left_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/inc/left_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/ajax/collection_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/ajax/price_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/ajax/product_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/ajax/stock_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/ajax/type_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/ajax/type_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/barcode.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/barcode.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/collection.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/collection.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/barcodeForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/barcodeFormEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/collectionForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/priceForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/productForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/modal/stockForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/price.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/price.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/product/stock.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/stock.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/system/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/system/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -439,7 +107,7 @@
     <session id="-661764701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.106" value="1" />
@@ -473,25 +141,25 @@
           <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.93" value="2" />
-          <entry key="project.open.time.94" value="3" />
+          <entry key="project.open.time.94" value="4" />
           <entry key="project.open.time.96" value="1" />
           <entry key="project.open.time.97" value="2" />
           <entry key="project.open.time.98" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="48" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="JAVA" value="7149" />
-          <entry key="JSP" value="7143" />
+          <entry key="JAVA" value="7162" />
+          <entry key="JSP" value="7178" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="Properties" value="570" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="38" />
-          <entry key="XML" value="258" />
+          <entry key="XML" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -500,15 +168,15 @@
           <entry key="cell" value="38" />
           <entry key="css" value="4" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="7149" />
+          <entry key="java" value="7162" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="7120" />
+          <entry key="jsp" value="7155" />
           <entry key="properties" value="570" />
           <entry key="sql" value="8" />
           <entry key="tag" value="23" />
           <entry key="tld" value="22" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="236" />
+          <entry key="xml" value="261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -516,17 +184,18 @@
         <counts>
           <entry key="Procfile" value="5" />
           <entry key="class" value="3" />
+          <entry key="classpath" value="1" />
           <entry key="css" value="7" />
           <entry key="customer" value="1" />
           <entry key="fnd_user" value="2" />
-          <entry key="java" value="286" />
+          <entry key="java" value="287" />
           <entry key="js" value="15" />
-          <entry key="jsp" value="166" />
+          <entry key="jsp" value="173" />
           <entry key="properties" value="19" />
           <entry key="sql" value="3" />
           <entry key="tag" value="9" />
           <entry key="tld" value="3" />
-          <entry key="xml" value="29" />
+          <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -535,13 +204,14 @@
           <entry key="CLASS" value="3" />
           <entry key="CSS" value="7" />
           <entry key="Database Element" value="3" />
-          <entry key="JAVA" value="286" />
-          <entry key="JSP" value="175" />
+          <entry key="Eclipse" value="1" />
+          <entry key="JAVA" value="287" />
+          <entry key="JSP" value="182" />
           <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="19" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="32" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -551,55 +221,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/head_default.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/bottom.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="181">
+              <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -607,33 +304,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-              <folding>
-                <element signature="method#doGet#0;class#ControllerServlet#0" />
-                <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
-                <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
-                <element signature="e#2979#2980#0" expanded="true" />
-                <element signature="e#3021#3022#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="121">
+              <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -659,13 +331,15 @@
       <find>jQuery</find>
       <find>web-app</find>
       <find>connection = ConnectionFactory.openConnection();</find>
-      <find>/maya/</find>
       <find>https://mayapets.herokuapp.com/</find>
       <find>http://java.sun.com/jsp/jstl/core</find>
+      <find>/maya/</find>
+      <find>${pageContext.request.contextPath}</find>
     </findStrings>
     <replaceStrings>
       <replace>connection = ConnectionFactory.getConnection();</replace>
       <replace>${pageContext.request.contextPath}</replace>
+      <replace>/${pageContext.request.contextPath}/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -674,14 +348,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/jsp/product/ajax/collection_list.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/product/ajax/price_list.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/product/ajax/type_list.jsp" />
-        <option value="$PROJECT_DIR$/web/js/autocompletepi/styles.css" />
-        <option value="$PROJECT_DIR$/web/jsp/system/customer.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/product/product.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/product/collection.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/product/price.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/util/BCrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Barcode.java" />
         <option value="$PROJECT_DIR$/web/jsp/product/modal/barcode.jsp" />
@@ -704,11 +370,9 @@
         <option value="$PROJECT_DIR$/src/main/java/tag/CustomerTag.java" />
         <option value="$PROJECT_DIR$/web/jsp/product/ajax/stock_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" />
         <option value="$PROJECT_DIR$/web/jsp/inc/head.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inc/bottom.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/system/modal/customerForm.jsp" />
@@ -725,6 +389,16 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" />
+        <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp" />
       </list>
     </option>
   </component>
@@ -791,6 +465,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -822,18 +497,80 @@
               <item name="Maya" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="fnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maya" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542550699433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542561263712" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
@@ -1027,18 +764,19 @@
       <workItem from="1542462970562" duration="598000" />
       <workItem from="1542468831682" duration="5601000" />
       <workItem from="1542493188426" duration="3079000" />
-      <workItem from="1542544361799" duration="5506000" />
+      <workItem from="1542544361799" duration="6768000" />
+      <workItem from="1542559377020" duration="1842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243742000" />
+    <option name="totallyTimeSpent" value="246846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-40" width="1366" height="808" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49238577" visible="true" weight="0.21299094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49238577" visible="true" weight="0.21601209" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22960725" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1049,13 +787,13 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32855093" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.4189383" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4189383" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.35007173" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.43472022" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4675926" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.35339507" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32998565" />
@@ -1112,26 +850,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Price.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1300,69 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/popper.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1378,27 +1034,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/left_menu.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1421,45 +1056,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/inc/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="720">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="465">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+        <state relative-caret-position="150">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="method#doGet#0;class#ControllerServlet#0" />
             <element signature="docComment;method#doPost#0;class#ControllerServlet#0" />
             <element signature="docComment;method#getServletInfo#0;class#ControllerServlet#0" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jndi/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeFormEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/barcodeForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fnd/modal/userForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/collectionForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/priceForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/productForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/product/modal/stockForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/system/modal/customerForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
         </state>
       </provider>
     </entry>

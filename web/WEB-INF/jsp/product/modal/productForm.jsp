@@ -61,7 +61,7 @@
 
     function reloadModal() {
         if (edit.value == "true") {
-            window.location.href = "/maya/Product";
+            window.history.back();
         }
     }
 </script>

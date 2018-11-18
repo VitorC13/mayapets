@@ -85,7 +85,7 @@
 
     function reloadModal() {ss
         if (edit.value == "true") {
-            window.location.href = "/maya/Price";
+            window.history.back();
         }
     }
 

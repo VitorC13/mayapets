@@ -87,7 +87,6 @@
 <c:import url="/WEB-INF/jsp/inc/bottom.jsp"/>
 <script type="text/javascript">
     var edit = document.querySelector("#edit");
-    //var userForm = document.querySelector("#userForm");
 
     if (edit.value == "true"){
         $('#userForm').modal();
