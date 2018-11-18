@@ -1,12 +1,8 @@
 package controller;
 
 import dao.BarcodeDAO;
-import dao.CustomerDAO;
-import dao.PriceDAO;
 import dao.StockDAO;
 import model.Barcode;
-import model.Stock;
-import model.TypeStock;
 import util.ObjectMethod;
 
 import javax.servlet.http.HttpServletRequest;
@@ -53,7 +49,7 @@ public class BarcodeController implements Controller {
                 resultado = editBarcode(session, req, dao, daoStock);
                 break;
             case "view":
-                resultado = "/jsp/product/barcode.jsp";
+                resultado = "/WEB-INF/jsp/product/barcode.jsp";
                 break;
             case "viewedit":
                 resultado = viewEdit(session, req, dao, id);
@@ -142,7 +138,7 @@ public class BarcodeController implements Controller {
         listBarcode = dao.getList();
         req.setAttribute("listbarcode", listBarcode);
         req.setAttribute("listbarcodeSize", listBarcode.size());
-        return "/jsp/product/barcode.jsp";
+        return "/WEB-INF/jsp/product/barcode.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, BarcodeDAO dao, Long id) throws Exception {
@@ -150,6 +146,6 @@ public class BarcodeController implements Controller {
         boolean edit = true;
         req.setAttribute("barcodeEdit", barcodeEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/product/barcode.jsp";
+        return "/WEB-INF/jsp/product/barcode.jsp";
     }
 }

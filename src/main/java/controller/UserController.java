@@ -53,7 +53,7 @@ public class UserController implements Controller {
                 resultado = editUser(session, req, dao, daoCustomer);
                 break;
             case "view":
-                resultado = "/jsp/fnd/user.jsp";
+                resultado = "/WEB-INF/jsp/fnd/user.jsp";
                 break;
             case "viewedit":
                 resultado = viewEdit(session, req, dao, id);
@@ -161,12 +161,12 @@ public class UserController implements Controller {
         listUser = dao.getList();
         req.setAttribute("listuser", listUser);
         req.setAttribute("listuserSize", listUser.size());
-        return "/jsp/fnd/user.jsp";
+        return "/WEB-INF/jsp/fnd/user.jsp";
     }
 
     public String resetUserPassword(HttpSession session, HttpServletRequest req, UserDAO dao, Long id) throws Exception {
         dao.resetPass(id);
-        return "/jsp/fnd/user.jsp";
+        return "/WEB-INF/jsp/fnd/user.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, UserDAO dao, Long id) throws Exception {
@@ -174,7 +174,7 @@ public class UserController implements Controller {
         boolean edit = true;
         req.setAttribute("userEdit", userEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/fnd/user.jsp";
+        return "/WEB-INF/jsp/fnd/user.jsp";
     }
 
     public String checkLogin(HttpSession session, HttpServletRequest req, UserDAO dao) throws Exception {
@@ -184,6 +184,6 @@ public class UserController implements Controller {
         exist = dao.searchLogin(login);
         System.out.println(exist);
         req.setAttribute("exist", exist);
-        return "/jsp/fnd/ajax/check_login.jsp";
+        return "/WEB-INF/jsp/fnd/ajax/check_login.jsp";
     }
 }

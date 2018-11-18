@@ -12,7 +12,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Autenticação</title>
-    <c:import url="jsp/inc/head_default.jsp"/>
+    <c:import url="WEB-INF/jsp/inc/head_default.jsp"/>
 </head>
 <body class="bg-light">
 
@@ -46,6 +46,6 @@
         </div>
     </div>
 </div>
-<c:import url="jsp/inc/bottom_default.jsp"/>
+<c:import url="WEB-INF/jsp/inc/bottom_default.jsp"/>
 </body>
 </html>

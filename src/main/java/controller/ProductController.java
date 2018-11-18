@@ -2,7 +2,6 @@ package controller;
 
 import dao.ProductDAO;
 import model.Product;
-import util.BCrypt;
 import util.ObjectMethod;
 
 import javax.servlet.http.HttpServletRequest;
@@ -49,7 +48,7 @@ public class ProductController implements Controller {
                 resultado = editProduct(session, req, dao);
                 break;
             case "view":
-                resultado = "/jsp/product/product.jsp";
+                resultado = "/WEB-INF/jsp/product/product.jsp";
                 break;
             case "viewedit":
                 resultado = viewEdit(session, req, dao, id);
@@ -110,7 +109,7 @@ public class ProductController implements Controller {
         listProduct = dao.getList();
         req.setAttribute("listproduct", listProduct);
         req.setAttribute("listproductSize", listProduct.size());
-        return "/jsp/product/product.jsp";
+        return "/WEB-INF/jsp/product/product.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, ProductDAO dao, Long id) throws Exception {
@@ -118,6 +117,6 @@ public class ProductController implements Controller {
         boolean edit = true;
         req.setAttribute("productEdit", productEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/product/product.jsp";
+        return "/WEB-INF/jsp/product/product.jsp";
     }
 }

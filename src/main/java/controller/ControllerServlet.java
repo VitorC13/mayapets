@@ -16,8 +16,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @WebServlet(name = "ControllerServlet",
-        urlPatterns = {"/maya", "/Login", "/Home", "/User",
-                "/Customer", "/Product", "/Collection", "/Price", "/Stock", "/Barcode", "/"})
+        urlPatterns = {"/Login", "/Home", "/User",
+                "/Customer", "/Product", "/Collection", "/Price", "/Stock", "/Barcode"})
 public class ControllerServlet extends HttpServlet {
 
     @Override
@@ -31,11 +31,11 @@ public class ControllerServlet extends HttpServlet {
             String action = req.getServletPath();
             String className = action.split("/")[1];
             /// MIRROR JAVA REFLECTION
-            if (userLogago != null || className.equals("Login")
-                    || className.equals("Home")|| className.equals("User")
-                    || className.equals("Customer")|| className.equals("Collection")
-                    || className.equals("Price")|| className.equals("Product")
-                    || className.equals("Stock")|| className.equals("Barcode")) {
+            if (className.equals("Login") || (userLogago != null && className.equals("Home")
+                    || className.equals("User") || className.equals("Customer")
+                    || className.equals("Collection") || className.equals("Price")
+                    || className.equals("Product") || className.equals("Stock")
+                    || className.equals("Barcode"))) {
                 Class c = Class.forName("controller." + className + "Controller");
                 String pagWebRedirect = (String) new Mirror().on(c.newInstance()).invoke().method("runController").withArgs(req, resp);
                 req.getRequestDispatcher(pagWebRedirect).forward(req, resp);

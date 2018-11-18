@@ -18,7 +18,7 @@ public class RedirectLogic{
         redirect.setActions(actions);
         
         req.setAttribute("redirectParams", redirect);
-        return "/jsp/fnd/redirect.jsp";
+        return "/WEB-INF/jsp/fnd/redirect.jsp";
     }
     
 }

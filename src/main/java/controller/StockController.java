@@ -2,7 +2,6 @@ package controller;
 
 import dao.*;
 import model.Barcode;
-import model.Price;
 import model.Stock;
 import model.TypeStock;
 import util.ObjectMethod;
@@ -63,7 +62,7 @@ public class StockController implements Controller {
                 resultado = barcodeStock(session, req, dao, daoBarcode, id);
                 break;
             case "view":
-                resultado = "/jsp/product/stock.jsp";
+                resultado = "/WEB-INF/jsp/product/stock.jsp";
                 break;
             case "viewedit":
                 resultado = viewEdit(session, req, dao, id);
@@ -186,7 +185,7 @@ public class StockController implements Controller {
         listStock = dao.getList();
         req.setAttribute("liststock", listStock);
         req.setAttribute("liststockSize", listStock.size());
-        return "/jsp/product/stock.jsp";
+        return "/WEB-INF/jsp/product/stock.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, StockDAO dao, Long id) throws Exception {
@@ -194,7 +193,7 @@ public class StockController implements Controller {
         boolean edit = true;
         req.setAttribute("stockEdit", stockEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/product/stock.jsp";
+        return "/WEB-INF/jsp/product/stock.jsp";
     }
 
     public String barcodeStock(HttpSession session, HttpServletRequest req, StockDAO dao, BarcodeDAO daoBarcode, Long id) throws Exception {
@@ -206,6 +205,6 @@ public class StockController implements Controller {
         List<Barcode> listBarcode = daoBarcode.getListByStock(stock);
         req.setAttribute("listBarcode", listBarcode);
         req.setAttribute("listBarcodeSize", listBarcode.size());
-        return "/jsp/product/stock.jsp";
+        return "/WEB-INF/jsp/product/stock.jsp";
     }
 }

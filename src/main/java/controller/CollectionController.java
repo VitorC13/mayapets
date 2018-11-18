@@ -48,7 +48,7 @@ public class CollectionController implements Controller {
                 resultado = editCollection(session, req, dao);
                 break;
             case "view":
-                resultado = "/jsp/product/collection.jsp";
+                resultado = "/WEB-INF/jsp/product/collection.jsp";
                 break;
             case "viewedit":
                 resultado = viewEdit(session, req, dao, id);
@@ -107,7 +107,7 @@ public class CollectionController implements Controller {
         listCollection = dao.getList();
         req.setAttribute("listcollection", listCollection);
         req.setAttribute("listcollectionSize", listCollection.size());
-        return "/jsp/product/collection.jsp";
+        return "/WEB-INF/jsp/product/collection.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, CollectionDAO dao, Long id) throws Exception {
@@ -115,6 +115,6 @@ public class CollectionController implements Controller {
         boolean edit = true;
         req.setAttribute("collectionEdit", collectionEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/product/collection.jsp";
+        return "/WEB-INF/jsp/product/collection.jsp";
     }
 }

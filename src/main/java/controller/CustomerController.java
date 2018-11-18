@@ -1,16 +1,10 @@
 package controller;
 
 import dao.CustomerDAO;
-import dao.UserDAO;
-import jndi.ConnectionFactory;
 import model.Customer;
-import model.User;
-import util.ObjectField;
 import util.ObjectMethod;
 
 import java.sql.Connection;
-import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -59,7 +53,7 @@ public class CustomerController implements Controller {
                 resultado = viewEdit(session, req, dao, id);
                 break;
             case "view":
-                resultado = "/jsp/system/customer.jsp";
+                resultado = "/WEB-INF/jsp/system/customer.jsp";
                 break;
             case "delete":
                 resultado = deleteCustomer(session, req, connection, dao, id);
@@ -149,7 +143,7 @@ public class CustomerController implements Controller {
         listcustomer = dao.getList();
         req.setAttribute("listcustomer", listcustomer);
         req.setAttribute("listcustomerSize", listcustomer.size());
-        return "/jsp/system/customer.jsp";
+        return "/WEB-INF/jsp/system/customer.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, CustomerDAO dao, Long id) throws Exception {
@@ -157,6 +151,6 @@ public class CustomerController implements Controller {
         boolean edit = true;
         req.setAttribute("customerEdit", customerEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/system/customer.jsp";
+        return "/WEB-INF/jsp/system/customer.jsp";
     }
 }

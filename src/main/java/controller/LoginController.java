@@ -69,7 +69,7 @@ public class LoginController implements Controller {
                 boolean passwordCorrect = BCrypt.checkpw(password, hashed);
                 if (passwordCorrect) {
                     session.setAttribute("user", user);
-                    return "/jsp/fnd/home.jsp";
+                    return "/WEB-INF/jsp/fnd/home.jsp";
                 } else {
                     req.setAttribute("msg", "Login ou Senha Incorreto!");
                     return "index.jsp";

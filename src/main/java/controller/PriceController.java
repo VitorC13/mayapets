@@ -4,7 +4,6 @@ import dao.CollectionDAO;
 import dao.PriceDAO;
 import dao.ProductDAO;
 import model.Price;
-import model.Product;
 import util.ObjectMethod;
 
 import javax.servlet.http.HttpServletRequest;
@@ -53,7 +52,7 @@ public class PriceController implements Controller {
                 resultado = editPrice(session, req, dao, daoProduct, daoCollection);
                 break;
             case "view":
-                resultado = "/jsp/product/price.jsp";
+                resultado = "/WEB-INF/jsp/product/price.jsp";
                 break;
             case "viewedit":
                 resultado = viewEdit(session, req, dao, id);
@@ -147,7 +146,7 @@ public class PriceController implements Controller {
         listPrice = dao.getList();
         req.setAttribute("listprice", listPrice);
         req.setAttribute("listpriceSize", listPrice.size());
-        return "/jsp/product/price.jsp";
+        return "/WEB-INF/jsp/product/price.jsp";
     }
 
     public String viewEdit(HttpSession session, HttpServletRequest req, PriceDAO dao, Long id) throws Exception {
@@ -155,7 +154,7 @@ public class PriceController implements Controller {
         boolean edit = true;
         req.setAttribute("priceEdit", priceEdit);
         req.setAttribute("edit", edit);
-        return "/jsp/product/price.jsp";
+        return "/WEB-INF/jsp/product/price.jsp";
     }
 
     private void priceAtac(HttpServletRequest req, Price price) throws Exception {

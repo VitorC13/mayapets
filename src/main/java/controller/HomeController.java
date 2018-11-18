@@ -22,7 +22,7 @@ public class HomeController implements Controller  {
         String resultado = "";
         switch (action) {
             case "userLog":
-                resultado = "/jsp/fnd/home.jsp";
+                resultado = "/WEB-INF/jsp/fnd/home.jsp";
                 break;
             case "userNotLog":
                 req.setAttribute("msg", "Senha Incorreta");
